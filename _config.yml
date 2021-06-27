@@ -1,0 +1,17 @@
+encoding: utf-8
+exclude:
+  - CNAME
+  - README.md
+url: https://arhadthedev.net
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+sass:
+  style: compressed
+
+compress_html:
+  clippings: all
