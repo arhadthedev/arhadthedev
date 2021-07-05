@@ -6,63 +6,11 @@ layout: compress
 	<head>
 		<meta charset="utf-8">
 		<title>@arhadthedev’s devlog</title>
-		<style>
-			html {
-				text-align: center;
-			}
-
-			body {
-				background: #f1f0e7;
-				font: 8pt Verdana, Arial;
-			}
-
-			article {
-				display: inline-block;
-				max-width: 1125px;
-				text-align: left;
-			}
-
-			h1 {
-				font-size: 16px;
-				text-align: left;
-			}
-
-			h2 {
-				background-color: #d2b48c;
-				border: 1px black solid;
-				font-size: 10pt;
-				text-align: center;
-			}
-
-			ul.article_list {
-				list-style-type: none;
-				padding-left: 0pt;
-			}
-
-			ul.article_list li {
-				margin: 1em 0em;
-			}
-
-			a {
-				color: black
-			}
-
-			a:hover {
-				background: silver;
-				text-decoration: underline overline
-			}
-		</style>
 	</head>
 	<body>
-		<h1>
-			{% assign is_title page.url == 'index.htm' %}
-			{% unless is_title %}<a href="/" title="A main page">{% endunless %}@arhadthedev’s devlog{% unless is_title %}</a>{% endunless %} |
-			<a href="//github.com/arhadthedev" title="GitHub profile">github</a>,
-			<a href="//twitter.com/arhadthedev" title="Twitter profile">twitter</a>,
-			<a href="//soundcloud.com/arhadthedev" title="SoundCloud profile">soundcloud</a> |
-			<a href="//vk.com/arhadthedev" title="VKontakte profile">vk</a> | |
-			<a href="//reddit.com/user/arhadthedev" title="Reddit profile">reddit</a>
-		</h1>
+		<header>
+			<h1>@arhadthedev’s devlog</h1>
+		</header>
 
 		{{ content }}
 	</body>
