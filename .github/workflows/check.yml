@@ -1,0 +1,21 @@
+name: Tests
+
+on:
+  pull_request:
+
+jobs:
+  check:
+    name: Checks with no code execution
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v3
+      - name: Install the latest Python version
+        using: actions/setup-python@v3
+        with:
+          cache: pip
+      - name: Install tools
+        run: python -m pip install wemake-python-styleguide
+      - name: Test for code style
+        # Ignore "WPS305 Found `f` string" 
+        run: flake8 --ignore=WPS305 .
