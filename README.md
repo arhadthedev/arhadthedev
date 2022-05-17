@@ -29,7 +29,7 @@ constantly meet lags and crashes.
 
 ### Open Source
 
-Systematic contributions:
+Regular contributions (updated weekly by [a GitHub Actions workflow](https://github.com/arhadthedev/arhadthedev/blob/main/.github/workflows/update.yml)):
 
 - Python interpreter:
   - **python/cpython**: [17 already merged commits](https://github.com/python/cpython/commits?author=arhadthedev), [10 PRs are awaiting review](https://github.com/python/cpython/pulls/arhadthedev), [6 reported issues](https://github.com/python/cpython/issues?q=is%3Aissue+author%3Aarhadthedev)
