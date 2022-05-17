@@ -32,13 +32,13 @@ constantly meet lags and crashes.
 Systematic contributions:
 
 - Python interpreter:
-  - **python/cpython**: [17 already merged commits](https://github.com/python/cpython/commits?author=arhadthedev), [9 PRs are awaiting review](https://github.com/python/cpython/pulls/arhadthedev), [5 reported issues](https://github.com/python/cpython/issues?q=is%3Aissue+author%3Aarhadthedev)
+  - **python/cpython**: [17 already merged commits](https://github.com/python/cpython/commits?author=arhadthedev), [10 PRs are awaiting review](https://github.com/python/cpython/pulls/arhadthedev), [6 reported issues](https://github.com/python/cpython/issues?q=is%3Aissue+author%3Aarhadthedev)
   - **python/core-workflow**: [1 PR is awaiting review](https://github.com/python/core-workflow/pulls/arhadthedev)
   - **python/bedevere**: [1 already merged commit](https://github.com/python/bedevere/commits?author=arhadthedev)
   - **sphinx-contrib/sphinx-lint**: [1 already merged commit](https://github.com/sphinx-contrib/sphinx-lint/commits?author=arhadthedev)
 
 - ECMAScript (aka JavaScript) specification:
-  - **tc39/ecma262**: [1 already merged commit](https://github.com/tc39/ecma262/commits?author=arhadthedev), [1 PR is awaiting review](https://github.com/tc39/ecma262/pulls/arhadthedev)
+  - **tc39/ecma262**: [1 already merged commit](https://github.com/tc39/ecma262/commits?author=arhadthedev), [1 PR is awaiting review](https://github.com/tc39/ecma262/pulls/arhadthedev), [6 reported issues](https://github.com/tc39/ecma262/issues?q=is%3Aissue+author%3Aarhadthedev)
 
 
 ### GitHub Stats
