@@ -2,7 +2,7 @@ name: Weekly Update
 
 on:
   push:
-   <main>
+    - main
   schedule:
     # The string is composed using <https://crontab.guru/>
     - cron: '0 0 * * 1'
