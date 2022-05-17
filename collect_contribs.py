@@ -18,7 +18,7 @@ from argparse import ArgumentParser
 from asyncio import run
 from sys import stdout
 
-from aiohttp import ClientSession
+import aiohttp
 from gidgethub.aiohttp import GitHubAPI
 
 
@@ -106,7 +106,7 @@ _user_agent = 'arhadthedev/arhadthedev'
 
 async def _make_query(query, emails: list[str], user: str, token: str):
     query_names, query_string = query
-    async with ClientSession() as session:
+    async with aiohttp.ClientSession() as session:
         gh = GitHubAPI(session, _user_agent, oauth_token=token)
         gh_response = await gh.graphql(query[1], user=user, emails=emails)
         return user, query_names, gh_response
@@ -136,6 +136,5 @@ async def _cli():
 
 
 if __name__ == '__main__':
-    from asyncio import set_event_loop_policy, WindowsSelectorEventLoopPolicy
-    set_event_loop_policy(WindowsSelectorEventLoopPolicy())
+    aiohttp.set_event_loop_policy(aiohttp.WindowsSelectorEventLoopPolicy())
     run(_cli())
