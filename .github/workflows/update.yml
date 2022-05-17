@@ -31,6 +31,7 @@ jobs:
             -rtc39/ecma262 arhadthedev
             -eoleg@arhadthedev.net
             -edralife@yandex.ru
+            arhadthedev
             > stats.json
         env:
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
