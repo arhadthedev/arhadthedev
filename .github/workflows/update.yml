@@ -2,7 +2,8 @@ name: Weekly Update
 
 on:
   push:
-    - main
+    branches:
+      - main
   schedule:
     # The string is composed using <https://crontab.guru/>
     - cron: '0 0 * * 1'
@@ -32,7 +33,7 @@ jobs:
             -edralife@yandex.ru
             > stats.json
         env:
-         - GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Update README.md
         run: ./regen_readme.py stats.json
       - name: Commit changes if any
