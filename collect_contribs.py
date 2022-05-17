@@ -136,4 +136,6 @@ async def _cli():
 
 
 if __name__ == '__main__':
+    from asyncio import set_event_loop_policy, WindowsSelectorEventLoopPolicy
+    set_event_loop_policy(WindowsProactorEventLoopPolicy())
     run(_cli())
