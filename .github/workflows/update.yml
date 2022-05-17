@@ -25,16 +25,17 @@ jobs:
       - name: Gather contribution statistics
         run: >
           ./collect_contribs.py
-            -rpython/cpython -rpython/core-workflow
+            -rpython/cpython
+            -rpython/core-workflow
             -rpython/bedevere
             -rsphinx-contrib/sphinx-lint
-            -rtc39/ecma262 arhadthedev
+            -rtc39/ecma262
             -eoleg@arhadthedev.net
             -edralife@yandex.ru
             arhadthedev
             > stats.json
         env:
-         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Update README.md
         run: ./regen_readme.py stats.json
       - name: Commit changes if any
