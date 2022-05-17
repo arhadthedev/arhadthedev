@@ -1,0 +1,2 @@
+# Generated files that should not pass to git-auto-commit-action
+stats.json
