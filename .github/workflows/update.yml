@@ -1,19 +1,22 @@
 name: Weekly Update
 
 on:
+  pull_request:
   push:
     branches:
       - main
   schedule:
     # The string is composed using <https://crontab.guru/>
     - cron: '0 0 * * 1'
-  workflow_dispatch:
 
 jobs:
   update:
     name: Commit changes
     runs-on: ubuntu-latest
     steps:
+      #
+      # Preparations (used for smoke testing too)
+      #
       - name: Checkout source code
         uses: actions/checkout@v3
       - name: Install the latest Python version
@@ -38,7 +41,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Update README.md
         run: ./regen_readme.py stats.json
+
+      #
+      # Deploy (run when a change is published in a main branch)
+      #
       - name: Commit changes if any
+        if: github.ref == 'refs/heads/main'
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update README.md contribution statistics
