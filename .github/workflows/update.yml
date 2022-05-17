@@ -23,19 +23,20 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
       - name: Gather contribution statistics
-        run: |
-          ./collect_contribs.py \
-            -rpython/cpython \
-            -rpython/core-workflow \
-            -rpython/bedevere \
-            -rsphinx-contrib/sphinx-lint \
-            -rtc39/ecma262 arhadthedev \
-            -eoleg@arhadthedev.net \
-            -edralife@yandex.ru \
-            arhadthedev \
-            > stats.json
+        run: >
+          ./collect_contribs.py
+            -rpython/cpython
+            -rpython/core-workflow
+            -rpython/bedevere
+            -rsphinx-contrib/sphinx-lint
+            -rtc39/ecma262 arhadthedev
+            -eoleg@arhadthedev.net
+            -edralife@yandex.ru
+            arhadthedev
+            >stats.json
         env:
-         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
       - name: Update README.md
         run: ./regen_readme.py stats.json
       - name: Commit changes if any
