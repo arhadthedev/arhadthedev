@@ -1,0 +1,27 @@
+name: Preview
+
+on:
+  pull_request:
+
+env:
+  CACHE_KEY: output-artifacts
+
+jobs:
+  update:
+    name: Commit changes
+    runs-on: ubuntu-latest
+    steps:
+      - name: Regenerate README
+        uses: ./.github/workflows/_generate
+        with:
+          cache-key: {{ env.CACHE_KEY }}
+      - name: Take the regenerated file
+        uses: actions/cache@v3
+        with:
+          path: README.md
+          key: {{ env.CACHE_KEY }}
+      - name: Upload a generated README for debugging
+        uses: actions/upload-artifact@v3
+        with:
+          name: README.md
+          path: README.md
