@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       #
-      # Preparations (used for smoke testing too)
+      # Preparations (also used for smoke testing)
       #
       - name: Checkout source code
         uses: actions/checkout@v3
@@ -43,7 +43,17 @@ jobs:
         run: ./regen_readme.py stats.json
 
       #
-      # Deploy (run when a change is published in a main branch)
+      # Debug artifacts
+      #
+      - name: Upload a generated README for debugging
+        if: github.ref != 'refs/heads/main'
+        uses: actions/upload-artifact@v3
+        with:
+          name: README.md
+          path: README.md
+
+      #
+      # Release deploy (run when a change is published in a main branch)
       #
       - name: Commit changes if any
         if: github.ref == 'refs/heads/main'
