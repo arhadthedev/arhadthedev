@@ -46,7 +46,7 @@ def _make_contrib_line(contribs, match: re.Pattern) -> str:
             lambda: contribs[repo_name].get('pr_count', 0),
             f'{repo_path}/pulls/{contribs["author"]}',
             lambda count: 's are' if count > 1 else ' is',
-            '[{count} PR{plural} awaiting review]({url})',
+            '[{count} PR{plural} awaiting merging]({url})',
         ),
         (
             lambda: contribs[repo_name].get('issue_count', 0),
