@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Regenerate README
-        uses: ./.github/workflows/_generate
+        uses: ./.github/workflows/_generate.yml
         with:
           cache: ${{ env.CACHE_KEY }}
       - name: Take the regenerated file
