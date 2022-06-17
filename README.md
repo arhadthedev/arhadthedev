@@ -17,9 +17,9 @@ Firebase for my Russia-only projects because of ping.
 - 💬 Ask me about mitigation of C qirks, how to port a static site to an ad-hoc
 Python generator, and how to preserve sanity in the process.
 - 📫 How to reach me:
-oleg@arhadthedev. net,
-[Twitter](https://twitter.com/arhadthedev),
-[VK](https://vk.com/arhadthedev) (the PM is open for everyone).
+  oleg@arhadthedev.net,
+  [Twitter](https://twitter.com/arhadthedev),
+  [VK](https://vk.com/arhadthedev) (the PM is open for everyone).
 - 😄 Pronouns: He/Him.
 - ⚡ Fun fact: I’m a fan of Unreal Gold.
 
