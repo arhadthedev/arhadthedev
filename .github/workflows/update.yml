@@ -9,51 +9,17 @@ on:
     - cron: '0 0 * * 1'
 
 jobs:
+  build:
+    uses: ./.github/workflows/build.yml
+
   update:
-    name: Commit changes
+    name: Deploy changes
     runs-on: ubuntu-latest
     steps:
-      #
-      # Preparations (also used for smoke testing)
-      #
-      - name: Checkout source code
-        uses: actions/checkout@v3
-      - name: Install the latest Python version
-        uses: actions/setup-python@v3
-        with:
-          cache: pip
-      - name: Install dependencies
-        run: python -m pip install -r requirements.txt
-      - name: Gather contribution statistics
-        run: >
-          ./collect_contribs.py \
-            -rpython/cpython \
-            -rpython/core-workflow \
-            -rpython/bedevere \
-            -rsphinx-contrib/sphinx-lint \
-            -rtc39/ecma262 \
-            -eoleg@arhadthedev.net \
-            -edralife@yandex.ru \
-            arhadthedev \
-            > stats.json
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Update README.md
-        run: ./regen_readme.py stats.json
-
-      #
-      # Debug artifacts
-      #
-      - name: Upload a generated README for debugging
-        if: github.ref != 'refs/heads/main'
-        uses: actions/upload-artifact@v3
+      - name: Dwnload build artifacts
+        uses: actions/download-artifact@v3
         with:
           name: README.md
-          path: README.md
-
-      #
-      # Release deploy (run when a change is published in a main branch)
-      #
       - name: Commit changes if any
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
