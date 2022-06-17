@@ -11,6 +11,8 @@ jobs:
     name: Commit changes
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout source code and local actions
+        uses: actions/checkout@v3
       - name: Regenerate README
         uses: ./.github/workflows/_generate.yml
         with:
