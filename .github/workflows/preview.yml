@@ -7,16 +7,18 @@ env:
   CACHE_KEY: output-artifacts
 
 jobs:
+  generate:
+    uses: ./.github/workflows/_generate.yml
+    with:
+      cache: ${{ env.CACHE_KEY }}
+
   update:
-    name: Commit changes
+    name: Upload artifacts
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code and local actions
         uses: actions/checkout@v3
       - name: Regenerate README
-        uses: ./.github/workflows/_generate.yml
-        with:
-          cache: ${{ env.CACHE_KEY }}
       - name: Take the regenerated file
         uses: actions/cache@v3
         with:
