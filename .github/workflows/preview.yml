@@ -14,7 +14,7 @@ jobs:
       - name: Regenerate README
         uses: ./.github/workflows/_generate
         with:
-          cache-key: {{ env.CACHE_KEY }}
+          cache: {{ env.CACHE_KEY }}
       - name: Take the regenerated file
         uses: actions/cache@v3
         with:
