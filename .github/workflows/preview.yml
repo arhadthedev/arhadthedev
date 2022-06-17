@@ -19,7 +19,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: README.md
-          key: {{ env.CACHE_KEY }}
+          key: ${{ env.CACHE_KEY }}
       - name: Upload a generated README for debugging
         uses: actions/upload-artifact@v3
         with:
