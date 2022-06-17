@@ -10,13 +10,14 @@ on:
 
 jobs:
   build:
+    name: Build
     uses: ./.github/workflows/build.yml
 
   update:
-    name: Deploy changes
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Dwnload build artifacts
+      - name: Download build artifacts
         uses: actions/download-artifact@v3
         with:
           name: README.md
