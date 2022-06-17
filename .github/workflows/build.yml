@@ -9,6 +9,8 @@ jobs:
     name: Generate README
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout source code
+        uses: actions/checkout@v3
       - name: Install the latest Python version
         uses: actions/setup-python@v3
         with:
