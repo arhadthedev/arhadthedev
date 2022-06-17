@@ -18,7 +18,6 @@ jobs:
     steps:
       - name: Checkout source code and local actions
         uses: actions/checkout@v3
-      - name: Regenerate README
       - name: Take the regenerated file
         uses: actions/cache@v3
         with:
