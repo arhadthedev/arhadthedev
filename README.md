@@ -32,13 +32,13 @@ Python generator, and how to preserve sanity in the process.
 Regular contributions (updated weekly by [a GitHub Actions workflow](https://github.com/arhadthedev/arhadthedev/blob/main/.github/workflows/update.yml)):
 
 - Python interpreter:
-- **python/cpython**: [19 already merged commits](https://github.com/python/cpython/commits?author=arhadthedev), [13 PRs are awaiting merging](https://github.com/python/cpython/pulls/arhadthedev), [11 reported issues](https://github.com/python/cpython/issues?q=is%3Aissue+author%3Aarhadthedev)
-- **python/core-workflow**: [1 PR is awaiting review](https://github.com/python/core-workflow/pulls/arhadthedev)
-- **python/bedevere**: [1 already merged commit](https://github.com/python/bedevere/commits?author=arhadthedev)
-- **sphinx-contrib/sphinx-lint**: [1 already merged commit](https://github.com/sphinx-contrib/sphinx-lint/commits?author=arhadthedev)
+  - **python/cpython**: [19 already merged commits](https://github.com/python/cpython/commits?author=arhadthedev), [13 PRs are awaiting merging](https://github.com/python/cpython/pulls/arhadthedev), [11 reported issues](https://github.com/python/cpython/issues?q=is%3Aissue+author%3Aarhadthedev)
+  - **python/core-workflow**: [1 PR is awaiting review](https://github.com/python/core-workflow/pulls/arhadthedev)
+  - **python/bedevere**: [1 already merged commit](https://github.com/python/bedevere/commits?author=arhadthedev)
+  - **sphinx-contrib/sphinx-lint**: [1 already merged commit](https://github.com/sphinx-contrib/sphinx-lint/commits?author=arhadthedev)
 
 - ECMAScript (aka JavaScript) specification:
-- **tc39/ecma262**: [1 already merged commit](https://github.com/tc39/ecma262/commits?author=arhadthedev), [1 PR is awaiting merging](https://github. com/tc39/ecma262/pulls/arhadthedev), [6 reported issues](https://github.com/tc39/ecma262/issues?q=is%3Aissue+author%3Aarhadthedev)
+  - **tc39/ecma262**: [1 already merged commit](https://github.com/tc39/ecma262/commits?author=arhadthedev), [1 PR is awaiting merging](https://github.com/tc39/ecma262/pulls/arhadthedev), [6 reported issues](https://github.com/tc39/ecma262/issues?q=is%3Aissue+author%3Aarhadthedev)
 
 
 ### GitHub Stats
