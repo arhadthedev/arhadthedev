@@ -55,8 +55,8 @@ Generated by [anuraghazra/github-readme-stats](https://github.com/anuraghazra/g
 
 #### Online entertainment
 
-- [magcius/noclip. website](https://github.com/magcius/noclip.website) ([live](https://noclip.website)), a digital museum of video game levels
-- [Triang3l/WebQuake](https://github.com/Triang3l/WebQuake), a HTML5/WebGL source port of Quake <sub>(was live on webquake. quaddicted. com until 2020)</sub>
+- [magcius/noclip.website](https://github.com/magcius/noclip.website) ([live](https://noclip.website)), a digital museum of video game levels
+- [Triang3l/WebQuake](https://github.com/Triang3l/WebQuake), a HTML5/WebGL source port of Quake <sub>(was live on webquake.quaddicted.com until 2020)</sub>
 - [TIC-80](https://github.com/nesbox/TIC-80) ([live WebAssembly version](https://tic80.com/play)), a fantasy 8-bit game console
 
 #### Sites
