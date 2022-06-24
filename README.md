@@ -62,3 +62,32 @@ Generated by [anuraghazra/github-readme-stats](https://github.com/anuraghazra/g
 #### Sites
 
 - [Shadertoy](https://www.shadertoy.com/), a playground for writing and sharing OpenGL/WebGL shaders
+
+### Offline tools
+
+- When CPython developers need to remove some function or class from Python, they do *a code search for foo.bar in PyPI top 5000 projects*. For this, they use the <https://github.com/vstinner/misc/blob/main/cpython/download_pypi_top.py> script.
+
+   <details><summary>More on the tool</summary>
+
+   ```text
+   $ python download_pypi_top.py --help
+
+   usage: download_pypi_top.py [-h] DIRECTORY [COUNT]
+
+   Download the source code of PyPI top projects.
+
+   positional arguments:
+     DIRECTORY   Destination directory
+     COUNT       Only download the top COUNT projects
+
+   options:
+     -h, --help  show this help message and exit
+   ```
+
+   Found at <https://www.mail-archive.com/python-dev@python.org/msg114613.html>.
+
+   </details>
+   
+### And remember
+
+[![xkcd Dependency panel (All modern digital infrastructure vs A project some random person in Nebraska has been thanklessly maintaining since 2003)](https://imgs.xkcd.com/comics/dependency.png)](https://xkcd.com/2347/)
