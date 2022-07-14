@@ -52,6 +52,7 @@ Generated by [anuraghazra/github-readme-stats](https://github.com/anuraghazra/g
 ### Useful third party online tools I use
 
 - [rhysd/actionlint](https://rhysd.github.io/actionlint/), a static checker for GitHub Actions workflow files
+- [Live DOM Viewer](https://software.hixie.ch/utilities/js/live-dom-viewer/), a parser of HTML pages for checking if minimization breaks them
 
 #### Online entertainment
 
