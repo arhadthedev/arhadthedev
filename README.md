@@ -29,7 +29,7 @@ Python generator, and how to preserve sanity in the process.
 
 ### Open Source
 
-Regular contributions (updated weekly by [a GitHub Actions workflow](https://github.com/arhadthedev/arhadthedev/blob/main/.github/workflows/update.yml)):
+Contributions into projects I care about (updated weekly by [a GitHub Actions workflow](https://github.com/arhadthedev/arhadthedev/blob/main/.github/workflows/update.yml)):
 
 - Python interpreter:
   - **python/cpython**: [31 already merged commits](https://github.com/python/cpython/commits?author=arhadthedev), [15 PRs are awaiting merging](https://github.com/python/cpython/pulls/arhadthedev), [21 reported issues](https://github.com/python/cpython/issues?q=is%3Aissue+author%3Aarhadthedev)
@@ -89,6 +89,6 @@ Generated by [anuraghazra/github-readme-stats](https://github.com/anuraghazra/g
 
    </details>
    
-### And remember
+### Afterword
 
 [![xkcd Dependency panel (All modern digital infrastructure vs A project some random person in Nebraska has been thanklessly maintaining since 2003)](https://imgs.xkcd.com/comics/dependency.png)](https://xkcd.com/2347/)
