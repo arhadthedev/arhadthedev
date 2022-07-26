@@ -12,7 +12,6 @@ API is partially synchronous and has thick multilayer wrappers for
 compatibility I don’t need. However, this knowledge has no use if the
 application is for Windows Store.
 - 👯 I’m looking to collaborate on C or C++ desktop or network backend projects.
-- 🤔 I’m looking for [REDACTED].
 - 💬 Ask me about mitigation of C qirks, how to port a static site to an ad-hoc
 Python generator, and how to preserve sanity in the process.
 - 📫 How to reach me:
