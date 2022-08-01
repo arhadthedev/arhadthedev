@@ -8,12 +8,6 @@ on:
     # The string is composed using <https://crontab.guru/>
     - cron: '0 0 * * 1'
 
-# For GitHub Pages (beta) action
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
 jobs:
   build:
     name: Build
@@ -39,6 +33,11 @@ jobs:
     name: Deploy arhadthedev.net
     if: ${{ github.event_name != 'schedule' }}
     runs-on: ubuntu-latest
+    # As specified in <https://github.com/actions/starter-workflows/blob/4a8f18e34dd13d2b6ee4d8da2ba72629eafe1609/pages/jekyll-gh-pages.yml>
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
