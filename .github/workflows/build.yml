@@ -38,3 +38,19 @@ jobs:
         with:
           name: README.md
           path: README.md
+
+  site:
+    name: Generate content for arhadthedev.net
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v3
+      - name: Setup GitHub Pages build tools
+        uses: actions/configure-pages@v1
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
