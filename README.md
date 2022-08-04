@@ -49,9 +49,15 @@ Generated by [anuraghazra/github-readme-stats](https://github.com/anuraghazra/g
 
 ### Useful third party online tools I use
 
-- [rhysd/actionlint](https://rhysd.github.io/actionlint/), a static checker for GitHub Actions workflow files
-- [Live DOM Viewer](https://software.hixie.ch/utilities/js/live-dom-viewer/), a parser of HTML pages for checking if minimization breaks them
-- [AsmGrid](https://asmjit.com/asmgrid/), a verbose table of Intel/AMD instruction opcodes
+- **GitHub infrastructure**
+  - [rhysd/actionlint](https://rhysd.github.io/actionlint/), a static checker for GitHub Actions workflow files
+- **Web development**
+  - [Live DOM Viewer](https://software.hixie.ch/utilities/js/live-dom-viewer/), a parser of HTML pages for checking if minimization breaks them
+- **C/C++ development**
+  - [Compiler Explorer](https://gcc.godbolt.org/), an online compiler for checking assembler output of various compilers of various languages
+  - [AsmGrid](https://asmjit.com/asmgrid/), a verbose table of Intel/AMD instruction opcodes
+  - [ODA Web](https://onlinedisassembler.com/odaweb/), an online disassembler
+
 
 #### Online entertainment
 
