@@ -44,7 +44,7 @@ Contributions into projects I care about (updated weekly by [a GitHub Actions
 Generated by [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats):
 
 ![Arhadthedev’s GitHub stats](https://github-readme-stats.vercel.app/api?username=arhadthedev&show_icons=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=arhadthedev&layout=compact)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=arhadthedev&layout=compact&exclude_repo=unrealwiki-offline-20080405,uttexture-20140808)
 
 
 ### Useful third party online tools I use
