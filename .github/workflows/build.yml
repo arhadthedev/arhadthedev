@@ -31,7 +31,7 @@ jobs:
             > stats.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Upload build artifacts
+      - name: Upload raw statistics retrieved from GitHub
         uses: actions/upload-artifact@v3
         with:
           name: Raw statistics from GitHub
