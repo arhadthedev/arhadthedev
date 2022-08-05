@@ -62,7 +62,7 @@ def _make_contrib_line(contribs, match: re.Pattern) -> str:
 
 
 _contrib_regex = re.compile(
-    r'^  - \*\*(?P<name>[a-zA-Z0-9_]+/[a-zA-Z0-9_]+)\*\*:.*$',
+    r'^  - \*\*(?P<name>[a-zA-Z0-9_-]+/[a-zA-Z0-9_-]+)\*\*:.*$',
     re.MULTILINE,
 )
 
