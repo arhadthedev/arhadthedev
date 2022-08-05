@@ -36,9 +36,11 @@ Contributions into projects I care about (updated weekly by [a GitHub Actions
   - **python/devguide**: [2 already merged commits](https://github.com/python/devguide/commits?author=arhadthedev)
   - **python/pyperformance**: [1 already merged commit](https://github.com/python/pyperformance/commits?author=arhadthedev)
   - **sphinx-contrib/sphinx-lint**: [1 already merged commit](https://github.com/sphinx-contrib/sphinx-lint/commits?author=arhadthedev)
+  - lots of my comments and reviews [of other's PRs and issues in python/\*](https://github.com/search?q=commenter%3Aarhadthedev+-author%3Aarhadthedev+org%3Apython)
 
 - ECMAScript (aka JavaScript) specification:
   - **tc39/ecma262**: [1 already merged commit](https://github.com/tc39/ecma262/commits?author=arhadthedev), [6 reported issues](https://github.com/tc39/ecma262/issues?q=is%3Aissue+author%3Aarhadthedev)
+  - lots of my comments and reviews [of other's PRs and issues in psf/\*](https://github.com/search?q=commenter%3Aarhadthedev+-author%3Aarhadthedev+org%3Atc39)
 
 
 ### GitHub Stats
