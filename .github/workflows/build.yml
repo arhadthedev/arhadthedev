@@ -23,6 +23,8 @@ jobs:
             -rpython/cpython \
             -rpython/core-workflow \
             -rpython/bedevere \
+            -rpython/devguide \
+            -rpython/pyperformance \
             -rsphinx-contrib/sphinx-lint \
             -rtc39/ecma262 \
             -eoleg@arhadthedev.net \
