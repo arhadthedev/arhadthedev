@@ -59,13 +59,10 @@ Generated by [anuraghazra/github-readme-stats](https://github.com/anuraghazra/g
   - [ODA Web](https://onlinedisassembler.com/odaweb/), an online disassembler
 - **Graphics**
   - [Shadertoy](https://www.shadertoy.com/), a playground for writing and sharing OpenGL/WebGL shaders
-
-
-#### Online entertainment
-
-- [magcius/noclip.website](https://github.com/magcius/noclip.website) ([live](https://noclip.website)), a digital museum of video game levels
-- [TIC-80](https://github.com/nesbox/TIC-80) ([live WebAssembly version](https://tic80.com/play)), a fantasy 8-bit game console
-- [Triang3l/WebQuake](https://github.com/Triang3l/WebQuake), a HTML5/WebGL source port of Quake <sub>(was live on webquake.quaddicted.com until 2020)</sub>
+- **Entertainment**
+  - [magcius/noclip.website](https://github.com/magcius/noclip.website) ([live](https://noclip.website)), a digital museum of video game levels
+  - [TIC-80](https://github.com/nesbox/TIC-80) ([live WebAssembly version](https://tic80.com/play)), a fantasy 8-bit game console, games included
+  - [Triang3l/WebQuake](https://github.com/Triang3l/WebQuake), a HTML5/WebGL source port of Quake <sub>(was live on webquake.quaddicted.com until 2020)</sub>
 
 ### Offline tools
 
