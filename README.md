@@ -1,6 +1,6 @@
 ### Hi 👋
 
-I am **Oleg Iarygin**, a postgrad student of Computer Science who builds up a portfolio
+I am **Oleg Iarygin**, a master of Computer Science who builds up a portfolio
 here and resolves use case pains in other projects. Also I have a miraculous
 ability to use stuff in unintended ways without being aware of it, so I
 constantly meet lags and crashes.
