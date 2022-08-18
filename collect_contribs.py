@@ -58,7 +58,7 @@ query_template_raw = """
       issues(after: "1", filterBy: {{createdBy: $user}}) {{
         totalCount
       }}
-      commits: object(expression: "main or master") {{
+      commits: object(expression: "HEAD") {{
         ... on Commit {{
           history(author: {{emails: $emails}}) {{
             totalCount
