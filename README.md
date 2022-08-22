@@ -33,7 +33,7 @@ Contributions into projects I care about (updated weekly by [a GitHub Actions
   - **python/cpython**: [39 already merged commits](https://github.com/python/cpython/commits?author=arhadthedev), [12 PRs are awaiting merging](https://github.com/python/cpython/pulls/arhadthedev), [22 reported issues](https://github.com/python/cpython/issues?q=is%3Aissue+author%3Aarhadthedev)
   - **python/core-workflow**: [1 already merged commit](https://github.com/python/core-workflow/commits?author=arhadthedev), [1 PR is awaiting merging](https://github.com/python/core-workflow/pulls/arhadthedev)
   - **python/bedevere**: [1 already merged commit](https://github.com/python/bedevere/commits?author=arhadthedev)
-  - **python/devguide**: [2 already merged commits](https://github.com/python/devguide/commits?author=arhadthedev)
+  - **python/devguide**: [2 already merged commits](https://github.com/python/devguide/commits?author=arhadthedev), [1 reported issue](https://github.com/python/devguide/issues?q=is%3Aissue+author%3Aarhadthedev)
   - **python/pyperformance**: [1 already merged commit](https://github.com/python/pyperformance/commits?author=arhadthedev)
   - **sphinx-contrib/sphinx-lint**: [1 already merged commit](https://github.com/sphinx-contrib/sphinx-lint/commits?author=arhadthedev)
   - lots of my comments and reviews [of other's PRs and issues in python/\*](https://github.com/search?q=commenter%3Aarhadthedev+-author%3Aarhadthedev+org%3Apython)
