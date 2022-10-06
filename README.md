@@ -56,21 +56,21 @@ Generated by [anuraghazra/github-readme-stats](https://github.com/anuraghazra/g
 ### Useful third party online tools I use
 
 - **GitHub infrastructure**
-  - [rhysd/actionlint](https://rhysd.github.io/actionlint/), a static checker for GitHub Actions workflow files
+  - [actionlint](https://rhysd.github.io/actionlint/) ([sources](https://github.com/rhysd/actionlint)), a static checker for GitHub Actions workflow files
 - **Web development**
   - [Live DOM Viewer](https://software.hixie.ch/utilities/js/live-dom-viewer/), a parser of HTML pages for checking if minimization breaks them
 - **C/C++ development**
-  - [Compiler Explorer](https://gcc.godbolt.org/), an online compiler for checking assembler output of various compilers of various languages
+  - [Compiler Explorer](https://gcc.godbolt.org/) ([sources](https://github.com/compiler-explorer/compiler-explorer)), an online compiler for checking assembler output of various compilers of various languages
   - [AsmGrid](https://asmjit.com/asmgrid/), a verbose table of Intel/AMD instruction opcodes
   - [ODA Web](https://onlinedisassembler.com/odaweb/), an online disassembler
 - **Graphics**
   - [Shadertoy](https://www.shadertoy.com/), a playground for writing and sharing OpenGL/WebGL shaders
 - **Entertainment**
-  - [magcius/noclip.website](https://github.com/magcius/noclip.website) ([live](https://noclip.website)), a digital museum of video game levels
-  - [TIC-80](https://github.com/nesbox/TIC-80) ([live WebAssembly version](https://tic80.com/play)), a fantasy 8-bit game console, games included
-  - [Triang3l/WebQuake](https://github.com/Triang3l/WebQuake), a HTML5/WebGL source port of Quake <sub>(was live on webquake.quaddicted.com until 2020)</sub>
+  - [noclip.website](https://noclip.website) ([sources](https://github.com/magcius/noclip.website)), a digital museum of video game levels
+  - [TIC-80](https://tic80.com/play) ([sources of a desktop version](https://github.com/nesbox/TIC-80)), a fantasy 8-bit game console, games included
+  - WebQuake ([sources](https://github.com/Triang3l/WebQuake)), a HTML5/WebGL source port of Quake <sub>(was live on webquake.quaddicted.com until 2020)</sub>
 - **Maintenance**
-  - [endoflife.date](https://github.com/endoflife-date/endoflife.date) ([live](https://endoflife.date/python)), a centralized list of per-version support status for 136 popular programs, services and OSes
+  - [endoflife.date](https://endoflife.date/) ([sources](https://github.com/endoflife-date/endoflife.date)), a centralized list of per-version support status for 136 popular programs, services and OSes
 
 ### Offline tools
 
