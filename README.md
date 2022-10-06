@@ -69,6 +69,8 @@ Generated by [anuraghazra/github-readme-stats](https://github.com/anuraghazra/g
   - [magcius/noclip.website](https://github.com/magcius/noclip.website) ([live](https://noclip.website)), a digital museum of video game levels
   - [TIC-80](https://github.com/nesbox/TIC-80) ([live WebAssembly version](https://tic80.com/play)), a fantasy 8-bit game console, games included
   - [Triang3l/WebQuake](https://github.com/Triang3l/WebQuake), a HTML5/WebGL source port of Quake <sub>(was live on webquake.quaddicted.com until 2020)</sub>
+- **Maintenance**
+  - [endoflife.date](https://github.com/endoflife-date/endoflife.date) ([live](https://endoflife.date/python)), a centralized list of per-version support status for 136 popular programs, services and OSes
 
 ### Offline tools
 
