@@ -30,7 +30,7 @@ Python generator, and how to preserve sanity in the process.
 Contributions into projects I care about (updated weekly by [a GitHub Actions workflow](https://github.com/arhadthedev/arhadthedev/blob/main/.github/workflows/update.yml)):
 
 - Python interpreter:
-  - **python/cpython**: [42 already merged commits](https://github.com/python/cpython/commits?author=arhadthedev), [12 PRs are awaiting merging](https://github.com/python/cpython/pulls/arhadthedev), [22 reported issues](https://github.com/python/cpython/issues?q=is%3Aissue+author%3Aarhadthedev)
+  - **python/cpython**: [42 already merged commits](https://github.com/python/cpython/commits?author=arhadthedev), [10 PRs are awaiting merging](https://github.com/python/cpython/pulls/arhadthedev), [22 reported issues](https://github.com/python/cpython/issues?q=is%3Aissue+author%3Aarhadthedev)
   - **python/core-workflow**: [1 already merged commit](https://github.com/python/core-workflow/commits?author=arhadthedev), [1 PR is awaiting merging](https://github.com/python/core-workflow/pulls/arhadthedev)
   - **python/bedevere**: [1 already merged commit](https://github.com/python/bedevere/commits?author=arhadthedev)
   - **python/devguide**: [2 already merged commits](https://github.com/python/devguide/commits?author=arhadthedev), [1 reported issue](https://github.com/python/devguide/issues?q=is%3Aissue+author%3Aarhadthedev)
