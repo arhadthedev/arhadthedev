@@ -50,7 +50,7 @@ I also randomly contribute to any repository I use in my code: [issues](htt
 Generated by [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats):
 
 ![Arhadthedev’s GitHub stats](https://github-readme-stats.vercel.app/api?username=arhadthedev&show_icons=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=arhadthedev&layout=compact&exclude_repo=unrealwiki-offline-20080405,uttexture-20140808,beyondunreal-wiki-20161217)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=arhadthedev&layout=compact&exclude_repo=qt-4.3.5,unrealwiki-offline-20080405,uttexture-20140808,beyondunreal-wiki-20161217)
 
 
 ### Useful third party online tools I use
