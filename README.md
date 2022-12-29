@@ -22,7 +22,7 @@ Python generator, and how to preserve sanity in the process.
 - ⚡ Fun fact: I’m a fan of Unreal Gold.
 
 🧼 Pro tip: keep hands sanitized after each rebase with
-`git filter-branch --env-filter "GIT_COMMITTER_DATE=$GIT_AUTHOR_DATE"`.
+<code>git filter-branch --env-filter "GIT_COMMITTER_DATE=$GIT_AUTHOR_DATE" HEAD~*howmanycommits*..HEAD</code>.
 
 
 ### Open Source
