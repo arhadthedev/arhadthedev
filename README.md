@@ -33,7 +33,7 @@ Python generator, and how to preserve sanity in the process.
 
 ### Open Source Contributions 
 
-Contributions into projects I care about (updated weekly by [a GitHub Actions workflow](https://github.com/arhadthedev/arhadthedev/blob/main/.github/workflows/update.yml)):
+Contributions into projects I care about (updated monthly by [a GitHub Actions workflow](https://github.com/arhadthedev/arhadthedev/blob/main/.github/workflows/update.yml)):
 
 - Python interpreter:
   - **python/cpython**: [47 already merged commits](https://github.com/python/cpython/commits?author=arhadthedev), [6 PRs are awaiting merging](https://github.com/python/cpython/pulls/arhadthedev), [36 reported issues](https://github.com/python/cpython/issues?q=is%3Aissue+author%3Aarhadthedev)
