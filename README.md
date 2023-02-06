@@ -29,7 +29,7 @@ Python generator, and how to preserve sanity in the process.
 
 1. ⚠ High priority: improving [`python/cpython` GitHub-related stuff](https://github.com/users/arhadthedev/projects/5/views/5) to make life of all contributors easier.
 2. 🛠️ Medium priority: finalizing [my own aged PRs](https://github.com/python/cpython/pulls/arhadthedev).
-3. 🧘🏼‍♀️ Background priority: [working on merging of ancient but still worthy PRs](https://github.com/users/arhadthedev/projects/9/views/2) to reduce total `python/cpython` PR count below 1k.
+3. 🧘🏼‍♀️ Background priority: [working on merging ancient but still worthy PRs](https://github.com/users/arhadthedev/projects/9/views/2) to reduce total `python/cpython` PR count below 1k.
 
 ### Open Source
 
