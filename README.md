@@ -31,7 +31,7 @@ Python generator, and how to preserve sanity in the process.
 2. 🛠️ Medium priority: finalizing [my own aged PRs](https://github.com/python/cpython/pulls/arhadthedev).
 3. 🧘🏼‍♀️ Background priority: [working on merging ancient but still worthy PRs](https://github.com/users/arhadthedev/projects/9/views/2) to reduce total `python/cpython` PR count below 1k.
 
-### Open Source
+### Open Source Contributions 
 
 Contributions into projects I care about (updated weekly by [a GitHub Actions workflow](https://github.com/arhadthedev/arhadthedev/blob/main/.github/workflows/update.yml)):
 
