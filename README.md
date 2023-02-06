@@ -45,7 +45,7 @@ Contributions into projects I care about (updated monthly by [a GitHub Action
 
 - ECMAScript (aka JavaScript) specification:
   - **tc39/ecma262**: [1 already merged commit](https://github.com/tc39/ecma262/commits?author=arhadthedev), [6 reported issues](https://github.com/tc39/ecma262/issues?q=is%3Aissue+author%3Aarhadthedev)
-  - lots of my comments and reviews [of other's PRs and issues in psf/\*](https://github.com/search?q=commenter%3Aarhadthedev+-author%3Aarhadthedev+org%3Atc39)
+  - lots of my comments and reviews [of other's PRs and issues in tc39/\*](https://github.com/search?q=commenter%3Aarhadthedev+-author%3Aarhadthedev+org%3Atc39)
 
 I also randomly contribute to any repository I use in my code: [issues](https://github.com/search?p=1&q=author%3Aarhadthedev+-org%3Apython+-org%3Atc39+-org%3Aarhadthedev+is%3Aissue), [PRs](https://github.com/search?q=author%3Aarhadthedev+-org%3Apython+-org%3Atc39+-org%3Aarhadthedev+is%3Apr), and [comments](https://github.com/search?q=commenter%3Aarhadthedev+-author%3Aarhadthedev+-org%3Apython+-org%3Atc39+-org%3Aarhadthedev).
 
