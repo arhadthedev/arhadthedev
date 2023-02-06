@@ -5,8 +5,7 @@ here and resolves use case pains in other projects. Also I have a miraculous
 ability to use stuff in unintended ways without being aware of it, so I
 constantly meet lags and crashes.
 
-- 🔭 I’m currently working on a web browser that doesn’t freeze as heavy as
-Chromium on my 4GB RAM 500GB HDD *work*station.
+- 🔭 I’m currently working on making [the Python repository](https://github.com/python/cpython) more convenient from novice standpoint.
 - 🌱 I’m currently learning low-level NT API because classical Windows network
 API is partially synchronous and has thick multilayer wrappers for
 compatibility I don’t need. However, this knowledge has no use if the
