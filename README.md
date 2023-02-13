@@ -62,6 +62,7 @@ Generated by [anuraghazra/github-readme-stats](https://github.com/anuraghazra/g
 
 - **GitHub infrastructure**
   - [actionlint](https://rhysd.github.io/actionlint/) ([sources](https://github.com/rhysd/actionlint)), a static checker for GitHub Actions workflow files
+  - [GitHub Emoji Picker](https://github-emoji-picker.rickstaa.dev/) ([sources](https://github.com/rickstaa/github-emoji-picker)), a list of all `:octocat:` emoji codes
 - **Web development**
   - [Live DOM Viewer](https://software.hixie.ch/utilities/js/live-dom-viewer/), a parser of HTML pages for checking if minimization breaks them
 - **C/C++ development**
