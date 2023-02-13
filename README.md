@@ -35,9 +35,9 @@ Python generator, and how to preserve sanity in the process.
 Contributions into projects I care about (updated monthly by [a GitHub Actions workflow](https://github.com/arhadthedev/arhadthedev/blob/main/.github/workflows/update.yml)):
 
 - Python interpreter:
-  - **python/cpython**: [47 already merged commits](https://github.com/python/cpython/commits?author=arhadthedev), [6 PRs are awaiting merging](https://github.com/python/cpython/pulls/arhadthedev), [36 reported issues](https://github.com/python/cpython/issues?q=is%3Aissue+author%3Aarhadthedev)
+  - **python/cpython**: [51 already merged commits](https://github.com/python/cpython/commits?author=arhadthedev), [7 PRs are awaiting merging](https://github.com/python/cpython/pulls/arhadthedev), [38 reported issues](https://github.com/python/cpython/issues?q=is%3Aissue+author%3Aarhadthedev)
   - **python/core-workflow**: [1 already merged commit](https://github.com/python/core-workflow/commits?author=arhadthedev), [1 PR is awaiting merging](https://github.com/python/core-workflow/pulls/arhadthedev)
-  - **python/bedevere**: [1 already merged commit](https://github.com/python/bedevere/commits?author=arhadthedev)
+  - **python/bedevere**: [1 already merged commit](https://github.com/python/bedevere/commits?author=arhadthedev), [1 reported issue](https://github.com/python/bedevere/issues?q=is%3Aissue+author%3Aarhadthedev)
   - **python/buildmaster-config**: 
   - **python/devguide**: [2 already merged commits](https://github.com/python/devguide/commits?author=arhadthedev), [1 reported issue](https://github.com/python/devguide/issues?q=is%3Aissue+author%3Aarhadthedev)
   - **python/pyperformance**: [1 already merged commit](https://github.com/python/pyperformance/commits?author=arhadthedev)
@@ -63,6 +63,7 @@ Generated by [anuraghazra/github-readme-stats](https://github.com/anuraghazra/g
 
 - **GitHub infrastructure**
   - [actionlint](https://rhysd.github.io/actionlint/) ([sources](https://github.com/rhysd/actionlint)), a static checker for GitHub Actions workflow files
+  - [GitHub Emoji Picker](https://github-emoji-picker.rickstaa.dev/) ([sources](https://github.com/rickstaa/github-emoji-picker)), a list of all `:octocat:` emoji codes
 - **Web development**
   - [Live DOM Viewer](https://software.hixie.ch/utilities/js/live-dom-viewer/), a parser of HTML pages for checking if minimization breaks them
 - **C/C++ development**
