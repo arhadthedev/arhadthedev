@@ -24,6 +24,7 @@ jobs:
             -rpython/cpython \
             -rpython/core-workflow \
             -rpython/bedevere \
+            -rpython/buildmaster-config \
             -rpython/devguide \
             -rpython/pyperformance \
             -rsphinx-contrib/sphinx-lint \
