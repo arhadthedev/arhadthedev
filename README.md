@@ -23,6 +23,8 @@ Python generator, and how to preserve sanity in the process.
 🧼 Pro tip: keep hands sanitized after each rebase with
 <code>git filter-branch --env-filter "GIT_COMMITTER_DATE=$GIT_AUTHOR_DATE" HEAD~*howmanycommits*..HEAD</code>.
 
+:godmode: Another pro tip: older versions of Visual Studio (2019, 2017, 2015, 2013) can be downloaded at <https://visualstudio.microsoft.com/vs/older-downloads/>.
+
 
 ### What I Am Working On Now
 
