@@ -24,9 +24,11 @@ Python generator, and how to preserve sanity in the process.
 
 ### What I Am Working On Now
 
-1. ⚠ High priority: improving [`python/cpython` GitHub-related stuff](https://github.com/users/arhadthedev/projects/5/views/5) to make life of all contributors easier.
-2. 🛠️ Medium priority: finalizing [my own aged PRs](https://github.com/python/cpython/pulls/arhadthedev).
-3. 🧘🏼‍♀️ Background priority: [working on merging ancient but still worthy PRs](https://github.com/users/arhadthedev/projects/9/views/2) to reduce total `python/cpython` PR count below 1k.
+| Priority | Tasks |
+| --- | --- |
+| ⚠ High | Improving `python/cpython` GitHub-related stuff to make life of all contributors easier. See [my project #5](https://github.com/users/arhadthedev/projects/5/views/5) for details |
+| 🛠️ Medium | Finalizing my own aged pull requests. See [a list sorted by creation date](https://github.com/search?q=state%3Aopen+author%3Aarhadthedev+sort%3Acreated-asc&type=pullrequests) for details |
+| 🧘🏼‍♀️ Background | Working on merging ancient but still worthy PRs to reduce total `python/cpython` PR count below 1k. See [my project #9](https://github.com/users/arhadthedev/projects/9/views/2) for details |
 
 ### Open Source Contributions 
 
