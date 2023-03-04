@@ -6,16 +6,12 @@ ability to use stuff in unintended ways without being aware of it, so I
 constantly meet lags and crashes.
 
 - 🔭 I’m currently working on making [the Python repository](https://github.com/python/cpython) more convenient from novice standpoint.
-- 🌱 I’m currently learning low-level NT API because classical Windows network
-API is partially synchronous and has thick multilayer wrappers for
-compatibility I don’t need. However, this knowledge has no use if the
-application is for Windows Store.
-- 👯 I’m looking to collaborate on C or C++ desktop or network backend projects.
+- 🌱 I’m currently learning Open CASCADE Technology library (aka OCCT).
+- 👯 I’m looking to collaborate on old `python/cpython` issues to reduce the issue counter below 999. 
 - 💬 Ask me about mitigation of C qirks, how to port a static site to an ad-hoc
 Python generator, and how to preserve sanity in the process.
 - 📫 How to reach me:
   oleg@arhadthedev.net,
-  [Twitter](https://twitter.com/arhadthedev),
   [VK](https://vk.com/arhadthedev) (the PM is open for everyone).
 - 😄 Pronouns: He/Him.
 - ⚡ Fun fact: I’m a fan of Unreal Gold.
