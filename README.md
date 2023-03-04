@@ -7,7 +7,7 @@ constantly meet lags and crashes.
 
 - 🔭 I’m currently working on making [the Python repository](https://github.com/python/cpython) more convenient from novice standpoint.
 - 🌱 I’m currently learning Open CASCADE Technology library (aka OCCT).
-- 👯 I’m looking to collaborate on old `python/cpython` issues to reduce the issue counter below 999. 
+- 👯 I’m looking to collaborate on old `python/cpython` issues to reduce the issue counter below 999.
 - 💬 Ask me about mitigation of C qirks, how to port a static site to an ad-hoc
 Python generator, and how to preserve sanity in the process.
 - 📫 How to reach me:
