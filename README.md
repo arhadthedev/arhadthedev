@@ -1,14 +1,14 @@
 ### Hi 👋
 
 I am **Oleg Iarygin**, a master of Computer Science who builds up a portfolio
-here and resolves use case pains in other projects. Also I have a miraculous
+here and resolves use case pains in other projects. Also, I have a miraculous
 ability to use stuff in unintended ways without being aware of it, so I
 constantly meet lags and crashes.
 
 - 🔭 I’m currently working on making [the Python repository](https://github.com/python/cpython) more convenient from novice standpoint.
 - 🌱 I’m currently learning Open CASCADE Technology library (aka OCCT).
-- 👯 I’m looking to collaborate on old `python/cpython` issues to reduce the issue counter below 999.
-- 💬 Ask me about mitigation of C qirks, how to port a static site to an ad-hoc
+- 👯 I’m looking to collaborate on old `python/cpython` issues to reduce the issue count below 999.
+- 💬 Ask me about mitigation of C quirks, how to port a static site to an ad-hoc
 Python generator, and how to preserve sanity in the process.
 - 📫 How to reach me:
   oleg@arhadthedev.net or
@@ -20,12 +20,12 @@ Pro tips:
 
 - 🧼 Keep hands sanitized after each rebase with
 <code>git filter-branch --env-filter "GIT_COMMITTER_DATE=$GIT_AUTHOR_DATE" -f HEAD~*howmanycommits*..HEAD</code>.
-- :godmode: Older versions of Visual Studio (2019, 2017, 2015, 2013) can be downloaded at <https://visualstudio.microsoft.com/vs/older-downloads/>.
+- :godmode: Older versions of Visual Studio (2019, 2017, 2015, and 2013) can be downloaded at <https://visualstudio.microsoft.com/vs/older-downloads/>.
 
-I use the Pomodoro technique:
+I use the Pomodoro technique:
 
-- 🕒 by turning on [Work With Me (2 Hours) with Music | Pomodoro 25/5 Timer (For Study or Work)](https://www.youtube.com/watch?v=7izHQ7Ojt-s) on background
-- ⌛ and spending my 5-minite breaks actively roaming outside the room with a timer in my pocket.
+- 🕒 by turning on [Work With Me (2 Hours) with Music | Pomodoro 25/5 Timer (For Study or Work)](https://www.youtube.com/watch?v=7izHQ7Ojt-s) to play in the background
+- ⌛ and spending my 5-minite breaks actively roaming outside the room with a timer in my pocket.
 
 ### What I Am Working On Now
 
@@ -33,11 +33,11 @@ I use the Pomodoro technique:
 | --- | --- |
 | ⚠ High | Improving `python/cpython` GitHub-related stuff to make life of all contributors easier. See [my project #5](https://github.com/users/arhadthedev/projects/5/views/5) for details |
 | 🛠️ Medium | Finalizing my own aged pull requests. See [a list sorted by creation date](https://github.com/search?q=state%3Aopen+author%3Aarhadthedev+sort%3Acreated-asc&type=pullrequests) for details |
-| 🧘🏼‍♀️ Background | Working on merging ancient but still worthy PRs to reduce total `python/cpython` PR count below 1k. See [my project #9](https://github.com/users/arhadthedev/projects/9/views/2) for details |
+| 🧘🏼‍♀️ Background | Working on merging ancient but still worthy PRs to reduce the total `python/cpython` PR count below 1k. See [my project #9](https://github.com/users/arhadthedev/projects/9/views/2) for details |
 
 ### Open Source Contributions 
 
-Contributions into projects I care about (updated monthly by [a GitHub Actions workflow](https://github.com/arhadthedev/arhadthedev/blob/main/.github/workflows/update.yml)):
+Contributions to projects I care about (updated monthly by [a GitHub Actions workflow](https://github.com/arhadthedev/arhadthedev/blob/main/.github/workflows/update.yml)):
 
 - Python interpreter:
   - **python/cpython**: [52 already merged commits](https://github.com/python/cpython/commits?author=arhadthedev), [8 PRs are awaiting merging](https://github.com/python/cpython/pulls/arhadthedev), [39 reported issues](https://github.com/python/cpython/issues?q=is%3Aissue+author%3Aarhadthedev)
@@ -50,7 +50,7 @@ Contributions into projects I care about (updated monthly by [a GitHub Action
 
 - ECMAScript (aka JavaScript) specification:
   - **tc39/ecma262**: [1 already merged commit](https://github.com/tc39/ecma262/commits?author=arhadthedev), [6 reported issues](https://github.com/tc39/ecma262/issues?q=is%3Aissue+author%3Aarhadthedev)
-  - lots of my comments and reviews [of other's PRs and issues in tc39/\*](https://github.com/search?q=commenter%3Aarhadthedev+-author%3Aarhadthedev+org%3Atc39)
+  - lots of my comments and reviews [of others' PRs and issues in tc39/\*](https://github.com/search?q=commenter%3Aarhadthedev+-author%3Aarhadthedev+org%3Atc39)
 
 I also randomly contribute to any repository I use in my code: [issues](https://github.com/search?p=1&q=author%3Aarhadthedev+-org%3Apython+-org%3Atc39+-org%3Aarhadthedev+is%3Aissue), [PRs](https://github.com/search?q=author%3Aarhadthedev+-org%3Apython+-org%3Atc39+-org%3Aarhadthedev+is%3Apr), and [comments](https://github.com/search?q=commenter%3Aarhadthedev+-author%3Aarhadthedev+-org%3Apython+-org%3Atc39+-org%3Aarhadthedev).
 
@@ -81,7 +81,7 @@ Generated by [anuraghazra/github-readme-stats](https://github.com/anuraghazra/g
   - [TIC-80](https://tic80.com/play) ([sources of a desktop version](https://github.com/nesbox/TIC-80)), a fantasy 8-bit game console, games included
   - WebQuake ([sources](https://github.com/Triang3l/WebQuake)), a HTML5/WebGL source port of Quake <sub>(was live on webquake.quaddicted.com until 2020)</sub>
 - **Maintenance**
-  - [endoflife.date](https://endoflife.date/) ([sources](https://github.com/endoflife-date/endoflife.date)), a centralized list of per-version support status for 136 popular programs, services and OSes
+  - [endoflife.date](https://endoflife.date/) ([sources](https://github.com/endoflife-date/endoflife.date)), a centralized list of per-version support status for 136 popular programs, services, and OSes
 
 ### Offline tools
 
