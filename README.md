@@ -11,16 +11,16 @@ constantly meet lags and crashes.
 - 💬 Ask me about mitigation of C qirks, how to port a static site to an ad-hoc
 Python generator, and how to preserve sanity in the process.
 - 📫 How to reach me:
-  oleg@arhadthedev.net,
+  oleg@arhadthedev.net or
   [VK](https://vk.com/arhadthedev) (the PM is open for everyone).
 - 😄 Pronouns: He/Him.
 - ⚡ Fun fact: I’m a fan of Unreal Gold.
 
-🧼 Pro tip: keep hands sanitized after each rebase with
-<code>git filter-branch --env-filter "GIT_COMMITTER_DATE=$GIT_AUTHOR_DATE" HEAD~*howmanycommits*..HEAD</code>.
+Pro tips:
 
-:godmode: Another pro tip: older versions of Visual Studio (2019, 2017, 2015, 2013) can be downloaded at <https://visualstudio.microsoft.com/vs/older-downloads/>.
-
+- 🧼 Keep hands sanitized after each rebase with
+<code>git filter-branch --env-filter "GIT_COMMITTER_DATE=$GIT_AUTHOR_DATE" -f HEAD~*howmanycommits*..HEAD</code>.
+- :godmode: Older versions of Visual Studio (2019, 2017, 2015, 2013) can be downloaded at <https://visualstudio.microsoft.com/vs/older-downloads/>.
 
 ### What I Am Working On Now
 
