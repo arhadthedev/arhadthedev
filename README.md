@@ -22,6 +22,11 @@ Pro tips:
 <code>git filter-branch --env-filter "GIT_COMMITTER_DATE=$GIT_AUTHOR_DATE" -f HEAD~*howmanycommits*..HEAD</code>.
 - :godmode: Older versions of Visual Studio (2019, 2017, 2015, 2013) can be downloaded at <https://visualstudio.microsoft.com/vs/older-downloads/>.
 
+I use the Pomodoro technique:
+
+- 🕒 by turning on [Work With Me (2 Hours) with Music | Pomodoro 25/5 Timer (For Study or Work)](https://www.youtube.com/watch?v=7izHQ7Ojt-s) on background
+- ⌛ and spending my 5-minite breaks actively roaming outside the room with a timer in my pocket.
+
 ### What I Am Working On Now
 
 | Priority | Tasks |
