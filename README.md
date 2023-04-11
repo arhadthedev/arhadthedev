@@ -48,11 +48,15 @@ Contributions to projects I care about (updated monthly by [a GitHub Actions 
   - **sphinx-contrib/sphinx-lint**: [1 already merged commit](https://github.com/sphinx-contrib/sphinx-lint/commits?author=arhadthedev)
   - lots of my comments and reviews [of other's PRs and issues in python/\*](https://github.com/search?q=commenter%3Aarhadthedev+-author%3Aarhadthedev+org%3Apython)
 
+   I discovered about the existence of the CPython repo from and got inspired by [Python Development History (1990-2021) — Gource — 1440p60](https://www.youtube.com/watch?v=4kIJOoYAw94) in December 2021 (thanks, YouTube recommendations!). After that, I started to track the GitHub pull requests and the Roundup tracker until I bumped into a seemingly useful and easy-to-implement feature [that itched me](https://bugs.python.org/issue15500#msg410896). That’s how I got involved in CPython development.
+
 - ECMAScript (aka JavaScript) specification:
   - **tc39/ecma262**: [1 already merged commit](https://github.com/tc39/ecma262/commits?author=arhadthedev), [6 reported issues](https://github.com/tc39/ecma262/issues?q=is%3Aissue+author%3Aarhadthedev)
   - lots of my comments and reviews [of others' PRs and issues in tc39/\*](https://github.com/search?q=commenter%3Aarhadthedev+-author%3Aarhadthedev+org%3Atc39)
 
-I also randomly contribute to any repository I use in my code: [issues](https://github.com/search?p=1&q=author%3Aarhadthedev+-org%3Apython+-org%3Atc39+-org%3Aarhadthedev+is%3Aissue), [PRs](https://github.com/search?q=author%3Aarhadthedev+-org%3Apython+-org%3Atc39+-org%3Aarhadthedev+is%3Apr), and [comments](https://github.com/search?q=commenter%3Aarhadthedev+-author%3Aarhadthedev+-org%3Apython+-org%3Atc39+-org%3Aarhadthedev).
+  I wanted to write my own browser from the ground up (having no idea about the vast scale of work, thus abandoned it later) so started to implement the ECMAScript specification section by section, reporting ambiguous moments. Essentially, it’s my first experience of living in a non-periodic pace of a large-scale Open Source project that helped me immensely to enter Python later.
+
+- I also randomly contribute to any repository I use in my code: [issues](https://github.com/search?p=1&q=author%3Aarhadthedev+-org%3Apython+-org%3Atc39+-org%3Aarhadthedev+is%3Aissue), [PRs](https://github.com/search?q=author%3Aarhadthedev+-org%3Apython+-org%3Atc39+-org%3Aarhadthedev+is%3Apr), and [comments](https://github.com/search?q=commenter%3Aarhadthedev+-author%3Aarhadthedev+-org%3Apython+-org%3Atc39+-org%3Aarhadthedev).
 
 
 ### GitHub Stats
