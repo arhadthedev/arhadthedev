@@ -93,6 +93,8 @@ Generated by [anuraghazra/github-readme-stats](https://github.com/anuraghazra/g
 
    <details><summary>More on the tools</summary>
 
+   How to setup and use: *[How to search 5,000 Python projects](https://dev.to/hugovk/how-to-search-5000-python-projects-31gk)* by Hugo van Kemenade.
+  
    ```text
    $ python download_pypi_top.py --help
 
