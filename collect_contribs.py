@@ -59,7 +59,7 @@ query_template_raw = """
       {subqueries}
     }}
     fragment ContributionsFragment on Repository {{
-      issues(after: "1", filterBy: {{createdBy: $user}}) {{
+      issues(filterBy: {{createdBy: $user}}) {{
         totalCount
       }}
       commits: object(expression: "HEAD") {{
