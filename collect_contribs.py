@@ -110,14 +110,14 @@ _user_agent = 'arhadthedev/arhadthedev'
 
 async def _make_query(query, emails: list[str], user: str, token: str):
     query_names, query_string = query
-    debug('A query to be sent: %s', query_string)
+    debug('A query to be sent: {0}'.format(query_string))
     async with ClientSession() as session:
         gh = GitHubAPI(session, _user_agent, oauth_token=token)
         gh_response = await gh.graphql(query_string, user=user, emails=emails)
         return user, query_names, gh_response
 
 
-def _condense_report(user: str, query_names, gh) -> map[str, str]:
+def _condense_report(user: str, query_names, gh) -> dict[str, str]:
     condenced = {'author': user}
     for name, field_id in query_names.items():
         if gh[field_id]['commits'] is None:
