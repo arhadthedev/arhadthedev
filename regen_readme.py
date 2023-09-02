@@ -38,19 +38,19 @@ def _make_contrib_line(contribs, match: re.Pattern) -> str:
     generators = [
         (
             lambda: contribs[repo_name].get('commit_count', 0),
-            f'{repo_path}/commits?author={contribs["author"]}',
+            f'{repo_path}/commits?author={contribs['author']}',
             lambda count: 's' if count > 1 else '',
             '[{count} already merged commit{plural}]({url})',
         ),
         (
             lambda: contribs[repo_name].get('pr_count', 0),
-            f'{repo_path}/pulls/{contribs["author"]}',
+            f'{repo_path}/pulls/{contribs['author']}',
             lambda count: 's are' if count > 1 else ' is',
             '[{count} PR{plural} awaiting merging]({url})',
         ),
         (
             lambda: contribs[repo_name].get('issue_count', 0),
-            f'{repo_path}/issues?q=is%3Aissue+author%3A{contribs["author"]}',
+            f'{repo_path}/issues?q=is%3Aissue+author%3A{contribs['author']}',
             lambda count: 's' if count > 1 else '',
             '[{count} reported issue{plural}]({url})',
         ),
