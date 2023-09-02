@@ -16,11 +16,14 @@ import os
 import re
 from argparse import ArgumentParser
 from asyncio import run
-from logging import debug
+from logging import basicConfig, debug
 from sys import stdout
 
 from aiohttp import ClientSession
 from gidgethub.aiohttp import GitHubAPI
+
+LOGLEVEL = os.environ.get('LOGLEVEL', 'INFO').upper()
+basicConfig(level=LOGLEVEL)
 
 
 def _get_inputs() -> tuple[str, str, str]:
