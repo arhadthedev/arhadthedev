@@ -108,7 +108,7 @@ async def _make_query(query, emails: list[str], user: str, token: str):
     query_names, query_string = query
     async with ClientSession() as session:
         gh = GitHubAPI(session, _user_agent, oauth_token=token)
-        gh_response = await gh.graphql(query[1], user=user, emails=emails)
+        gh_response = await gh.graphql(query_string, user=user, emails=emails)
         return user, query_names, gh_response
 
 
