@@ -27,6 +27,10 @@ I use the Pomodoro technique:
 - 🕒 by turning on [Work With Me (2 Hours) with Music | Pomodoro 25/5 Timer (For Study or Work)](https://www.youtube.com/watch?v=7izHQ7Ojt-s) to play in the background
 - ⌛ and spending my 5-minite breaks actively roaming outside the room with a timer in my pocket.
 
+My background music for joy and work:
+
+- 💼🎶 *Chill Liminal Spaces & Ambient Dreamcore Music* by *Slowed & Reverb*: [for side projects and deep relaxation](https://www.youtube.com/watch?v=hB7m7uTTm-E), [for mindless sorting and categorizing of stuff](https://www.youtube.com/watch?v=jJIL1PcK3s0), [for meditation](https://www.youtube.com/watch?v=gyQHjCPsnh8)
+
 ### What I Am Working On Now
 
 | Priority | Tasks |
