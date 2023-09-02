@@ -89,7 +89,7 @@ subquery_template_raw = """
 """
 
 
-def _prepare_query(repositories: list[str]) -> tuple[dict[str, str], str]:
+def _get_query(repositories: list[str]) -> tuple[dict[str, str], str]:
     query_template = re.sub('\n| (?= )', '', query_template_raw)
     subquery_template = re.sub('\n| (?= )', '', subquery_template_raw)
 
@@ -110,34 +110,38 @@ _user_agent = 'arhadthedev/arhadthedev'
 
 async def _make_query(query, emails: list[str], user: str, token: str):
     query_names, query_string = query
-    debug('A query to be sent: %s', query_string)
+    debug('A query to be sent: {0}'.format(query_string))
     async with ClientSession() as session:
         gh = GitHubAPI(session, _user_agent, oauth_token=token)
         gh_response = await gh.graphql(query_string, user=user, emails=emails)
         return user, query_names, gh_response
 
 
-def _output_results(statistics, output) -> None:
-    user, query_names, gh = statistics
-
+def _condense_report(user: str, query_names, gh) -> dict[str, str]:
     condenced = {'author': user}
     for name, field_id in query_names.items():
         if gh[field_id]['commits'] is None:
             gh[field_id]['commits'] = {'history': {'totalCount': 0}}
+
         condenced[name] = {
             'commit_count': gh[field_id]['commits']['history']['totalCount'],
             'pr_count': gh[f'{field_id}Pulls']['issueCount'],
             'issue_count': gh[field_id]['issues']['totalCount'],
         }
 
+    return condenced
+
+
+def _output_results(statistics, output) -> None:
+    user, query_names, gh = statistics
+    condenced = _condense_report(user, query_names, gh)
     output.write(json.dumps(condenced))
 
 
 async def _cli():
     user, token, emails, repos = _get_inputs()
-    query = _prepare_query(repos)
-    contribution_statistics = await _make_query(query, emails, user, token)
-    _output_results(contribution_statistics, stdout)
+    contributions = await _make_query(_get_query(repos), emails, user, token)
+    _output_results(contributions, stdout)
 
 
 if __name__ == '__main__':
