@@ -31,6 +31,8 @@ My background music for joy and work:
 
 - 💼🎶 *Chill Liminal Spaces & Ambient Dreamcore Music* by *Slowed & Reverb*: [for side projects and deep relaxation](https://www.youtube.com/watch?v=hB7m7uTTm-E), [for mindless sorting and categorizing of stuff](https://www.youtube.com/watch?v=jJIL1PcK3s0), [for meditation](https://www.youtube.com/watch?v=gyQHjCPsnh8)
 - World of Warcraft peaseful roaming through the game world with soundscape and background music by Koldstare: [Eastern Kingdoms](https://www.youtube.com/watch?v=XTCgguOj7JA), [Kalimdor](https://www.youtube.com/watch?v=iPBX9VC3gFU), [Teldrassil](https://www.youtube.com/watch?v=vb0IS8zvQbk)
+- Deep House *Rocky Mountain Transmissions* mixtapes by Benjamin G: [*Midnight Break Room*](https://www.youtube.com/watch?v=3BZWCVOP0mY), [*Grotto Grooves*](https://www.youtube.com/watch?v=TsFM-xWQvgI), [*Dungeons*](https://www.youtube.com/watch?v=71drsgF2wNQ)
+- Sovietwave albums: [*Ambition*](https://www.youtube.com/watch?v=Mo41PanwSB0), [*Our Dream*](https://www.youtube.com/watch?v=DMoCM_FgLP8)
 
 ### What I Am Working On Now
 
