@@ -10,15 +10,21 @@ layout: compress
 			html {
 				background: #fafbfc;
 			}
+
+			main {
+				max-width: 38rem;
+				padding: 2rem;
+				margin: auto
+			}
 		</style>
 	</head>
 	<body>
 		<header>
 			<h1>@arhadthedev’s devlog</h1>
 		</header>
-
-		{{ content }}
-
+		<main>
+			{{ content }}
+		</main>
 		<footer>
 			<p>© Oleg Iarygin, 2022. All content of the site is licensed under <a href="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution 4.0 International.</a>
 		</footer>
