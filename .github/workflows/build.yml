@@ -35,14 +35,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Upload raw statistics retrieved from GitHub
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Raw statistics from GitHub
           path: stats.json
       - name: Update README.md
         run: ./regen_readme.py stats.json
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: README.md
           path: README.md
