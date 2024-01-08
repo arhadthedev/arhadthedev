@@ -27,10 +27,18 @@ I use the Pomodoro technique:
 - 🕒 by turning on [Work With Me (2 Hours) with Music | Pomodoro 25/5 Timer (For Study or Work)](https://www.youtube.com/watch?v=7izHQ7Ojt-s) to play in the background
 - ⌛ and spending my 5-minite breaks actively roaming outside the room with a timer in my pocket.
 
+My background music for joy and work:
+
+- 💼🎶 *Chill Liminal Spaces & Ambient Dreamcore Music* by *Slowed & Reverb*: [for side projects and deep relaxation](https://www.youtube.com/watch?v=hB7m7uTTm-E), [for mindless sorting and categorizing of stuff](https://www.youtube.com/watch?v=jJIL1PcK3s0), [for meditation](https://www.youtube.com/watch?v=gyQHjCPsnh8)
+- World of Warcraft peaseful roaming through the game world with soundscape and background music by Koldstare: [Eastern Kingdoms](https://www.youtube.com/watch?v=XTCgguOj7JA), [Kalimdor](https://www.youtube.com/watch?v=iPBX9VC3gFU), [Teldrassil](https://www.youtube.com/watch?v=vb0IS8zvQbk)
+- Deep House *Rocky Mountain Transmissions* mixtapes by Benjamin G: [*Midnight Break Room*](https://www.youtube.com/watch?v=3BZWCVOP0mY), [*Grotto Grooves*](https://www.youtube.com/watch?v=TsFM-xWQvgI), [*Dungeons*](https://www.youtube.com/watch?v=71drsgF2wNQ)
+- Sovietwave albums: [*Ambition*](https://www.youtube.com/watch?v=Mo41PanwSB0), [*Our Dream*](https://www.youtube.com/watch?v=DMoCM_FgLP8)
+
 ### What I Am Working On Now
 
 | Priority | Tasks |
 | --- | --- |
+| ⛔ Blocker | [arhadthedev#47: Sort out data hoarding piles on my drives and in my clouds](https://github.com/arhadthedev/arhadthedev/issues/47) (I'm totally out of available disc space, both on internal, external drives and cloud storages; mere megabytes do not count) |
 | ⚠ High | Improving `python/cpython` GitHub-related stuff to make life of all contributors easier. See [my project #5](https://github.com/users/arhadthedev/projects/5/views/5) for details |
 | 🛠️ Medium | Finalizing my own aged pull requests. See [a list sorted by creation date](https://github.com/search?q=state%3Aopen+author%3Aarhadthedev+sort%3Acreated-asc&type=pullrequests) for details |
 | 🧘🏼‍♀️ Background | Working on merging ancient but still worthy PRs to reduce the total `python/cpython` PR count below 1k. See [my project #9](https://github.com/users/arhadthedev/projects/9/views/2) for details |
@@ -40,9 +48,9 @@ I use the Pomodoro technique:
 Contributions to projects I care about (updated monthly by [a GitHub Actions workflow](https://github.com/arhadthedev/arhadthedev/blob/main/.github/workflows/update.yml)):
 
 - Python interpreter:
-  - **python/cpython**: [58 already merged commits](https://github.com/python/cpython/commits?author=arhadthedev), [5 PRs are awaiting merging](https://github.com/python/cpython/pulls/arhadthedev), [42 reported issues](https://github.com/python/cpython/issues?q=is%3Aissue+author%3Aarhadthedev)
+  - **python/cpython**: [60 already merged commits](https://github.com/python/cpython/commits?author=arhadthedev), [5 PRs are awaiting merging](https://github.com/python/cpython/pulls/arhadthedev), [43 reported issues](https://github.com/python/cpython/issues?q=is%3Aissue+author%3Aarhadthedev)
   - **python/core-workflow**: [2 already merged commits](https://github.com/python/core-workflow/commits?author=arhadthedev), [1 reported issue](https://github.com/python/core-workflow/issues?q=is%3Aissue+author%3Aarhadthedev)
-  - **python/bedevere**: [1 already merged commit](https://github.com/python/bedevere/commits?author=arhadthedev), [1 reported issue](https://github.com/python/bedevere/issues?q=is%3Aissue+author%3Aarhadthedev)
+  - **python/bedevere**: [1 already merged commit](https://github.com/python/bedevere/commits?author=arhadthedev), [2 reported issues](https://github.com/python/bedevere/issues?q=is%3Aissue+author%3Aarhadthedev)
   - **python/devguide**: [2 already merged commits](https://github.com/python/devguide/commits?author=arhadthedev), [1 reported issue](https://github.com/python/devguide/issues?q=is%3Aissue+author%3Aarhadthedev)
   - **python/pyperformance**: [1 already merged commit](https://github.com/python/pyperformance/commits?author=arhadthedev)
   - **sphinx-contrib/sphinx-lint**: [1 already merged commit](https://github.com/sphinx-contrib/sphinx-lint/commits?author=arhadthedev)
@@ -93,6 +101,8 @@ Generated by [anuraghazra/github-readme-stats](https://github.com/anuraghazra/g
 
    <details><summary>More on the tools</summary>
 
+   How to setup and use: *[How to search 5,000 Python projects](https://dev.to/hugovk/how-to-search-5000-python-projects-31gk)* by Hugo van Kemenade.
+  
    ```text
    $ python download_pypi_top.py --help
 
