@@ -27,11 +27,12 @@ I use the Pomodoro technique:
 - 🕒 by turning on [Work With Me (2 Hours) with Music | Pomodoro 25/5 Timer (For Study or Work)](https://www.youtube.com/watch?v=7izHQ7Ojt-s) to play in the background
 - ⌛ and spending my 5-minite breaks actively roaming outside the room with a timer in my pocket.
 
-My background music for joy and work:
+My background music for joy, work, and other typing sessions:
 
 - 💼🎶 *Chill Liminal Spaces & Ambient Dreamcore Music* by *Slowed & Reverb*: [for side projects and deep relaxation](https://www.youtube.com/watch?v=hB7m7uTTm-E), [for mindless sorting and categorizing of stuff](https://www.youtube.com/watch?v=jJIL1PcK3s0), [for meditation](https://www.youtube.com/watch?v=gyQHjCPsnh8)
+- Yume 2kki OST (short loops of melancholic and despair music hosted by Borb and Munch cookiE YouTube channels): [Gentle Meadows](https://www.youtube.com/watch?v=UEfoFC0rNQo), [Green Butterfly Area](https://www.youtube.com/watch?v=wBBILSWHYCM), [Realistic Beach](https://www.youtube.com/watch?v=3pHpVSz-Drw), [Virtual City: Nightclub](https://www.youtube.com/watch?v=2qaCHQahIE4) (or faster [Virtual City: DJ Event](https://www.youtube.com/watch?v=qroxEFU9700) version), [Rainy Apartments](https://www.youtube.com/watch?v=TNQhDgSNXrY), [Dojo Space](https://www.youtube.com/watch?v=VFcPpe-41t4), [Beyond](https://www.youtube.com/watch?v=78OEw5lRVP8)
 - World of Warcraft peaseful roaming through the game world with soundscape and background music by Koldstare: [Eastern Kingdoms](https://www.youtube.com/watch?v=XTCgguOj7JA), [Kalimdor](https://www.youtube.com/watch?v=iPBX9VC3gFU), [Teldrassil](https://www.youtube.com/watch?v=vb0IS8zvQbk)
-- Deep House *Rocky Mountain Transmissions* mixtapes by Benjamin G: [*Midnight Break Room*](https://www.youtube.com/watch?v=3BZWCVOP0mY), [*Grotto Grooves*](https://www.youtube.com/watch?v=TsFM-xWQvgI), [*Dungeons*](https://www.youtube.com/watch?v=71drsgF2wNQ)
+- 💿 Deep House *Rocky Mountain Transmissions* mixtapes by Benjamin G: [*Midnight Break Room*](https://www.youtube.com/watch?v=3BZWCVOP0mY), [*Grotto Grooves*](https://www.youtube.com/watch?v=TsFM-xWQvgI), [*Dungeons*](https://www.youtube.com/watch?v=71drsgF2wNQ)
 - Sovietwave albums: [*Ambition*](https://www.youtube.com/watch?v=Mo41PanwSB0), [*Our Dream*](https://www.youtube.com/watch?v=DMoCM_FgLP8)
 
 ### What I Am Working On Now
