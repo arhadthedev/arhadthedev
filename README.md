@@ -34,6 +34,7 @@ My background music for joy, work, and other typing sessions:
 - World of Warcraft peaseful roaming through the game world with soundscape and background music by Koldstare: [Eastern Kingdoms](https://www.youtube.com/watch?v=XTCgguOj7JA), [Kalimdor](https://www.youtube.com/watch?v=iPBX9VC3gFU), [Teldrassil](https://www.youtube.com/watch?v=vb0IS8zvQbk). For more per zone music, see *World of Warcraft Classic Music & Ambience* landscapes by Meisio: [Tanaris](https://www.youtube.com/watch?v=YTnLxsYOj8w), [Mulgore](https://www.youtube.com/watch?v=x1U5sHcb9I4)
 - 💿 Deep House *Rocky Mountain Transmissions* mixtapes by Benjamin G: [*Midnight Break Room*](https://www.youtube.com/watch?v=3BZWCVOP0mY), [*Grotto Grooves*](https://www.youtube.com/watch?v=TsFM-xWQvgI), [*Dungeons*](https://www.youtube.com/watch?v=71drsgF2wNQ)
 - Sovietwave albums: [*Ambition*](https://www.youtube.com/watch?v=Mo41PanwSB0), [*Our Dream*](https://www.youtube.com/watch?v=DMoCM_FgLP8)
+- ☕ Lofi albums: [Chill Lofi Mix 🍈 Study/Work Deep Focus Weekend](https://www.youtube.com/watch?v=eGn69q5of08) by *CHILL VILLAGE*, [Morning Coffee](https://www.youtube.com/watch?v=1fueZCTYkpA) by *Lofi Girl*
 
 ### What I Am Working On Now
 
