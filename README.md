@@ -35,6 +35,8 @@ My background music for joy, work, and other typing sessions:
 - 💿 Deep House *Rocky Mountain Transmissions* mixtapes by Benjamin G: [*Midnight Break Room*](https://www.youtube.com/watch?v=3BZWCVOP0mY), [*Grotto Grooves*](https://www.youtube.com/watch?v=TsFM-xWQvgI), [*Dungeons*](https://www.youtube.com/watch?v=71drsgF2wNQ)
 - Sovietwave albums: [*Ambition*](https://www.youtube.com/watch?v=Mo41PanwSB0), [*Our Dream*](https://www.youtube.com/watch?v=DMoCM_FgLP8)
 - ☕ Lofi albums: [Chill Lofi Mix 🍈 Study/Work Deep Focus Weekend](https://www.youtube.com/watch?v=eGn69q5of08) by *CHILL VILLAGE*, [Morning Coffee](https://www.youtube.com/watch?v=1fueZCTYkpA) by *Lofi Girl*
+- Minecraft OST by Daniel Rosenfeld (C418): [*Minecraft Relaxing Music With Fireplace Ambience*](https://www.youtube.com/watch?v=qcQQp-zXnG0), [full album hosted by 
+InfernalEntertain](https://www.youtube.com/watch?v=laZusNy8QiY&list=PL3817D41C7D841E23_)
 
 ### What I Am Working On Now
 
