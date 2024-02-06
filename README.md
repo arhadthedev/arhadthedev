@@ -55,7 +55,7 @@ InfernalEntertain](https://www.youtube.com/watch?v=laZusNy8QiY&list=PL3817D41C7D
 Contributions to projects I care about (updated monthly by [a GitHub Actions workflow](https://github.com/arhadthedev/arhadthedev/blob/main/.github/workflows/update.yml)):
 
 - Python interpreter:
-  - **python/cpython**: [60 already merged commits](https://github.com/python/cpython/commits?author=arhadthedev), [5 PRs are awaiting merging](https://github.com/python/cpython/pulls/arhadthedev), [43 reported issues](https://github.com/python/cpython/issues?q=is%3Aissue+author%3Aarhadthedev)
+  - **python/cpython**: [61 already merged commits](https://github.com/python/cpython/commits?author=arhadthedev), [4 PRs are awaiting merging](https://github.com/python/cpython/pulls/arhadthedev), [43 reported issues](https://github.com/python/cpython/issues?q=is%3Aissue+author%3Aarhadthedev)
   - **python/core-workflow**: [2 already merged commits](https://github.com/python/core-workflow/commits?author=arhadthedev), [1 reported issue](https://github.com/python/core-workflow/issues?q=is%3Aissue+author%3Aarhadthedev)
   - **python/bedevere**: [1 already merged commit](https://github.com/python/bedevere/commits?author=arhadthedev), [2 reported issues](https://github.com/python/bedevere/issues?q=is%3Aissue+author%3Aarhadthedev)
   - **python/devguide**: [2 already merged commits](https://github.com/python/devguide/commits?author=arhadthedev), [1 reported issue](https://github.com/python/devguide/issues?q=is%3Aissue+author%3Aarhadthedev)
