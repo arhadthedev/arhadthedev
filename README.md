@@ -50,6 +50,9 @@ InfernalEntertain](https://www.youtube.com/watch?v=laZusNy8QiY&list=PL3817D41C7D
 - Ambient:
   - [Soothing Tunic Music](https://www.youtube.com/watch?v=gzWd5hjcaPo) and [Night in the Woods music](https://www.youtube.com/watch?v=AsLKfqA73uE) by VoidyKit
   - [Aphex Twin - Selected Ambient Works 85-92](https://www.youtube.com/watch?v=Xw5AiRVqfqk)
+- Techno:
+  - [AMBIENT TECHNO || mix 002 by Rob Jenkins](https://www.youtube.com/watch?v=2F6B9EibJjw) 
+  - [Smash Hit \[OST\] all soundtracks (by Douglas Holmquist)](https://www.youtube.com/watch?v=ZM06IUhokAA)
 
 ### What I Am Working On Now
 
