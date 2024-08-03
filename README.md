@@ -35,7 +35,7 @@ My background music for joy, work, and other typing sessions:
 Liminaut, [*a playlist for exploring liminal spaces*](https://www.youtube.com/watch?v=DqjWFZN82_A) by *nobody*
    - Slow ambient [Trackside Isolation (Dark Ambient Mix)](https://www.youtube.com/watch?v=RwF_0HSr_MI) by *Thunderbolt 1000 Siren Productions*
 - 🌌 Highly experimental stuff:
-   - Strange music: [Cryptovolans - DATA - DREAM - DESIRE【SC-88 Pro】](https://www.youtube.com/watch?v=YVNwa_hae_U),
+   - Strange music: [Cryptovolans - DATA - DREAM - DESIRE【SC-88 Pro】](https://www.youtube.com/watch?v=YVNwa_hae_U), 
    - Non-Minecraft C418 music: [Headache](https://www.youtube.com/watch?v=-9-vy2EbZDU), [Kitten](https://www.youtube.com/watch?v=XYslMVHZ7qQ)
    - Yume 2kki OST (short loops of melancholic and despair music hosted by Borb and Munch cookiE YouTube channels): [Gentle Meadows](https://www.youtube.com/watch?v=UEfoFC0rNQo), [Green Butterfly Area](https://www.youtube.com/watch?v=wBBILSWHYCM), [Realistic Beach](https://www.youtube.com/watch?v=3pHpVSz-Drw), [Virtual City: Nightclub](https://www.youtube.com/watch?v=2qaCHQahIE4) (or faster [Virtual City: DJ Event](https://www.youtube.com/watch?v=qroxEFU9700) version), [Azure Garden](https://www.youtube.com/watch?v=5IFEe8tVrJg), [Rainy Apartments](https://www.youtube.com/watch?v=TNQhDgSNXrY), [Dojo Space](https://www.youtube.com/watch?v=VFcPpe-41t4), [Beyond](https://www.youtube.com/watch?v=78OEw5lRVP8)
 - No-dreamcore ambient:
