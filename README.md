@@ -47,6 +47,9 @@ Liminaut, [*a playlist for exploring liminal spaces*](https://www.youtube.com/w
    - [Chill Lofi Mix 🍈 Study/Work Deep Focus Weekend](https://www.youtube.com/watch?v=eGn69q5of08) by *CHILL VILLAGE*, [Morning Coffee](https://www.youtube.com/watch?v=1fueZCTYkpA) by *Lofi Girl*
    - Minecraft OST by Daniel Rosenfeld (C418): [*Minecraft Relaxing Music With Fireplace Ambience*](https://www.youtube.com/watch?v=qcQQp-zXnG0), [full album hosted by 
 InfernalEntertain](https://www.youtube.com/watch?v=laZusNy8QiY&list=PL3817D41C7D841E23_)
+- Ambient:
+  - [Soothing Tunic Music](https://www.youtube.com/watch?v=gzWd5hjcaPo) and [Night in the Woods music](https://www.youtube.com/watch?v=AsLKfqA73uE) by VoidyKit
+  - [Aphex Twin - Selected Ambient Works 85-92](https://www.youtube.com/watch?v=Xw5AiRVqfqk)
 
 ### What I Am Working On Now
 
