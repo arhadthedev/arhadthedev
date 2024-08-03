@@ -54,6 +54,10 @@ InfernalEntertain](https://www.youtube.com/watch?v=laZusNy8QiY&list=PL3817D41C7D
   - [AMBIENT TECHNO || mix 002 by Rob Jenkins](https://www.youtube.com/watch?v=2F6B9EibJjw) 
   - [Smash Hit \[OST\] all soundtracks (by Douglas Holmquist)](https://www.youtube.com/watch?v=ZM06IUhokAA)
 
+Some interesting hackery of old hardware:
+
+- [(AY8930) \*P\*owerful \*S\*ample \*G\*enerator](https://www.youtube.com/watch?v=PK1hErnozbk) — swift in-channel volume changes to play samples via a square wave generator
+
 ### What I Am Working On Now
 
 | Priority | Tasks |
