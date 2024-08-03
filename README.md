@@ -35,13 +35,15 @@ My background music for joy, work, and other typing sessions:
 Liminaut, [*a playlist for exploring liminal spaces*](https://www.youtube.com/watch?v=DqjWFZN82_A) by *nobody*
    - Slow ambient [Trackside Isolation (Dark Ambient Mix)](https://www.youtube.com/watch?v=RwF_0HSr_MI) by *Thunderbolt 1000 Siren Productions*
 - 🌌 Highly experimental stuff:
-   - Strange music: [Cryptovolans - DATA - DREAM - DESIRE【SC-88 Pro】](https://www.youtube.com/watch?v=YVNwa_hae_U), 
+   - Strange music: [Cryptovolans - DATA - DREAM - DESIRE【SC-88 Pro】](https://www.youtube.com/watch?v=YVNwa_hae_U),
    - Non-Minecraft C418 music: [Headache](https://www.youtube.com/watch?v=-9-vy2EbZDU), [Kitten](https://www.youtube.com/watch?v=XYslMVHZ7qQ)
    - Yume 2kki OST (short loops of melancholic and despair music hosted by Borb and Munch cookiE YouTube channels): [Gentle Meadows](https://www.youtube.com/watch?v=UEfoFC0rNQo), [Green Butterfly Area](https://www.youtube.com/watch?v=wBBILSWHYCM), [Realistic Beach](https://www.youtube.com/watch?v=3pHpVSz-Drw), [Virtual City: Nightclub](https://www.youtube.com/watch?v=2qaCHQahIE4) (or faster [Virtual City: DJ Event](https://www.youtube.com/watch?v=qroxEFU9700) version), [Azure Garden](https://www.youtube.com/watch?v=5IFEe8tVrJg), [Rainy Apartments](https://www.youtube.com/watch?v=TNQhDgSNXrY), [Dojo Space](https://www.youtube.com/watch?v=VFcPpe-41t4), [Beyond](https://www.youtube.com/watch?v=78OEw5lRVP8)
 - No-dreamcore ambient:
    - Guitar riffs: [Tunnel | Source Radio](https://www.youtube.com/watch?v=8mr0XK8W-8U) by *Hungry Skull*, 
 - World of Warcraft peaseful roaming through the game world with soundscape and background music by Koldstare: [Eastern Kingdoms](https://www.youtube.com/watch?v=XTCgguOj7JA), [Kalimdor](https://www.youtube.com/watch?v=iPBX9VC3gFU), [Teldrassil](https://www.youtube.com/watch?v=vb0IS8zvQbk). For more per zone music, see *World of Warcraft Classic Music & Ambience* landscapes by Meisio: [Tanaris](https://www.youtube.com/watch?v=YTnLxsYOj8w), [Mulgore](https://www.youtube.com/watch?v=x1U5sHcb9I4)
-- 💿 Deep House *Rocky Mountain Transmissions* mixtapes by Benjamin G: [*Midnight Break Room*](https://www.youtube.com/watch?v=3BZWCVOP0mY), [*Grotto Grooves*](https://www.youtube.com/watch?v=TsFM-xWQvgI), [*Dungeons*](https://www.youtube.com/watch?v=71drsgF2wNQ), slow ambient [*Autumn Evenings*](https://www.youtube.com/watch?v=P95g5wHgHEk)
+- 💿 Deep House:
+   - *Rocky Mountain Transmissions* mixtapes by Benjamin G: [*Midnight Break Room*](https://www.youtube.com/watch?v=3BZWCVOP0mY), [*Grotto Grooves*](https://www.youtube.com/watch?v=TsFM-xWQvgI), [*Dungeons*](https://www.youtube.com/watch?v=71drsgF2wNQ), slow ambient [*Autumn Evenings*](https://www.youtube.com/watch?v=P95g5wHgHEk)
+   - [The Moonlight Club (YM2612 + SEGA PSG)](https://www.youtube.com/watch?v=ePEJW-SBTMc) by Muscises
 - Sovietwave albums: [*Ambition*](https://www.youtube.com/watch?v=Mo41PanwSB0), [*Our Dream*](https://www.youtube.com/watch?v=DMoCM_FgLP8)
 - ☕ [Lofi](https://en.wikipedia.org/wiki/Lo-fi_music) albums:
    - [Chill Lofi Mix 🍈 Study/Work Deep Focus Weekend](https://www.youtube.com/watch?v=eGn69q5of08) by *CHILL VILLAGE*, [Morning Coffee](https://www.youtube.com/watch?v=1fueZCTYkpA) by *Lofi Girl*
