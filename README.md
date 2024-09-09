@@ -55,6 +55,7 @@ InfernalEntertain](https://www.youtube.com/watch?v=laZusNy8QiY&list=PL3817D41C7D
 - Techno:
   - [AMBIENT TECHNO || mix 002 by Rob Jenkins](https://www.youtube.com/watch?v=2F6B9EibJjw) 
   - [Smash Hit \[OST\] all soundtracks (by Douglas Holmquist)](https://www.youtube.com/watch?v=ZM06IUhokAA)
+  - [øfdream - thelema](https://www.youtube.com/watch?v=nAX_dT-S1EI) uploaded by *dreamscape*
 
 Some interesting hackery of old hardware:
 
