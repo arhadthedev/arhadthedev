@@ -32,7 +32,7 @@ My background music for joy, work, and other typing sessions:
 - 💼🎶 Dreamcore for work and relaxation:
    - Tempo-setting *Chill Liminal Spaces & Ambient Dreamcore Music* by *Slowed & Reverb*: [for side projects and deep relaxation](https://www.youtube.com/watch?v=hB7m7uTTm-E), [for mindless sorting and categorizing of stuff](https://www.youtube.com/watch?v=jJIL1PcK3s0), [for meditation](https://www.youtube.com/watch?v=gyQHjCPsnh8), [for approaching deadlines](https://www.youtube.com/watch?v=FA2sLJpTqQQ), [for experimentation with set target but unknown outcome](https://www.youtube.com/watch?v=yijUxxFilM0), [for doing IRL stuff at home](https://www.youtube.com/watch?v=6P-2q2KE4SI)
    - Frutiger Aero: [frutiger aero / y2k jungle tech dnb mix](https://www.youtube.com/watch?v=BRY9dmHQnsk) by *evymiu*, [Zen TV 🌦️ (Frutiger Aero / Vaporwave Mix)](https://www.youtube.com/watch?v=4ozXwgGFr7k) by ArpWire TV
-   - Slower ambient-ish [*The Poolrooms Ambience Vol. 1*](https://www.youtube.com/watch?v=MB8_VWhxj8A) by fragiletemporary, [*Dreamcore / Liminal Space Music // 1 Hour Playlist*](https://www.youtube.com/watch?v=poGvYO3jDWk) by 
+   - Slower ambient-ish [*The Poolrooms Ambience Vol. 1*](https://www.youtube.com/watch?v=MB8_VWhxj8A) by fragiletemporary, [*forever dreaming.*](https://www.youtube.com/watch?v=9g_mXPggD0Y) by Navo159, [*Dreamcore / Liminal Space Music // 1 Hour Playlist*](https://www.youtube.com/watch?v=poGvYO3jDWk) by 
 Liminaut, [*a playlist for exploring liminal spaces*](https://www.youtube.com/watch?v=DqjWFZN82_A) by *nobody*
    - Slow ambient [Trackside Isolation (Dark Ambient Mix)](https://www.youtube.com/watch?v=RwF_0HSr_MI) by *Thunderbolt 1000 Siren Productions*
 - 🌌 Highly experimental stuff:
