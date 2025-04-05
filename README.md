@@ -67,7 +67,6 @@ Some interesting hackery of old hardware:
 
 | Priority | Tasks |
 | --- | --- |
-| ⛔ Blocker | [arhadthedev#47: Sort out data hoarding piles on my drives and in my clouds](https://github.com/arhadthedev/arhadthedev/issues/47) (I'm totally out of available disc space, both on internal, external drives and cloud storages; mere megabytes do not count) |
 | ⚠ High | Improving `python/cpython` GitHub-related stuff to make life of all contributors easier. See [my project #5](https://github.com/users/arhadthedev/projects/5/views/5) for details |
 | 🛠️ Medium | Finalizing my own aged pull requests. See [a list sorted by creation date](https://github.com/search?q=state%3Aopen+author%3Aarhadthedev+sort%3Acreated-asc&type=pullrequests) for details |
 | 🧘🏼‍♀️ Background | Working on merging ancient but still worthy PRs to reduce the total `python/cpython` PR count below 1k. See [my project #9](https://github.com/users/arhadthedev/projects/9/views/2) for details |
