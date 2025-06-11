@@ -1,10 +1,8 @@
 encoding: utf-8
 exclude:
+  - github_readme
   - CNAME
-  - collect_contribs.py
   - README.md
-  - regen_readme.py
-  - requirements.txt
 url: https://arhadthedev.net
 
 defaults:

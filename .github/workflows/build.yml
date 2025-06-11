@@ -17,8 +17,10 @@ jobs:
           cache: pip
           python-version: 3.11
       - name: Install dependencies
+        working-directory: github_readme
         run: python -m pip install -r requirements.txt
       - name: Gather contribution statistics
+        working-directory: github_readme
         run: >
           ./collect_contribs.py \
             -rpython/cpython \
