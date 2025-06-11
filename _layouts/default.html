@@ -7,37 +7,38 @@ layout: compress
 		<meta charset="utf-8">
 		<title>@arhadthedev’s devlog</title>
 		<style>
-			html {
-				background: #fafafa;
-			}
-
 			body {
-				max-width: 50%;
-				margin: 3rem auto
+				display: flex;
+				margin: 0pt;
+				max-width: 936px;
 			}
 
-			footer {
-				font-style: italic;
-				color: #555;
-				margin-top: 2em;
+			header {
+				background: #dfdfc0;
+				border: 1px solid black;
+				border-radius: 3px;
+				margin: 10px;
+				padding: 8px;
+				width: 192px;
 			}
 
-			@media screen and (max-width: 767px) {}
-				body {
-					width: 100%;
-				}
+			main {
+				flex-grow: 1;
+				font-size: 1.25;
+				margin: 10px;
 			}
 		</style>
 	</head>
 	<body>
 		<header>
-			<h1>@arhadthedev’s devlog</h1>
+			<nav>
+				<ol>
+					<li>(to be done)
+				</ol>
+			</nav>
+			<p>© 2022 Oleg Iarygin. All content is licensed under <a href="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution 4.0 International.</a>
 		</header>
 
-		{{ content }}
-
-		<footer>
-			<p>© 2022 Oleg Iarygin. All content of the site is licensed under <a href="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution 4.0 International.</a>
-		</footer>
+		<main>{{ content }}</main>
 	</body>
 </html>
