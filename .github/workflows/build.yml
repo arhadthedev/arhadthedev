@@ -21,6 +21,7 @@ jobs:
         run: python -m pip install -r requirements.txt
       - name: Gather contribution statistics
         working-directory: github_readme
+        # Call as a script to catch accidentally reset execution bit
         run: >
           ./collect_contribs.py \
             -rpython/cpython \
