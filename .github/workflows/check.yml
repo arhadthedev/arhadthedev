@@ -5,20 +5,20 @@ on:
 
 jobs:
   check-actions:
-    name: Checks CI scripts with no execution
+    name: Check CI scripts with no execution
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
         uses: actions/checkout@v4
       # From <https://github.com/rhysd/actionlint/blob/v1.7.7/docs/usage.md#problem-matchers>
-      - name: Checkout Github Action YAML files
+      - name: Check Github Action YAML files with no execution
         run: |
           echo "::add-matcher::.github/problem-matchers/actionlint.json"
           bash <(curl https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash)
           ./actionlint -color
         shell: bash
   check-python:
-    name: Checks Python code with no execution
+    name: Check Python code with no execution
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
