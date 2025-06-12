@@ -11,7 +11,7 @@ jobs:
       # From <https://github.com/rhysd/actionlint/blob/v1.7.7/docs/usage.md#problem-matchers>
       - name: Checkout Github Action YAML files
         run: |
-          echo "::add-matcher::.github/actionlint-matcher.json"
+          echo "::add-matcher::.github/problem-matchers/actionlint.json"
           bash <(curl https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash)
           ./actionlint -color
         shell: bash
