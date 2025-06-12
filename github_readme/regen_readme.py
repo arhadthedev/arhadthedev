@@ -28,6 +28,7 @@ def _make_contrib_highlight(templates) -> str | None:
     if count() > 0:
         plural = plural_template(count())
         return message_template.format(count=count(), plural=plural, url=url)
+    return None
 
 
 def _make_contrib_line(contribs, match: re.Pattern) -> str:
