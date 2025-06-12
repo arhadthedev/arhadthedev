@@ -28,3 +28,12 @@ dependencies = [
   "aiohttp ~= 3.12",
   "gidgethub ~= 5.4",
 ]
+
+[build-system]
+# According to <https://setuptools.pypa.io/en/latest/history.html>:
+# pyproject.toml are supported in setuptools >= 61.0.0
+requires = ["setuptools >= 61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["collect_contribs", "regen_readme"]
