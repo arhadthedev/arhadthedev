@@ -1,5 +1,4 @@
 [project]
-
 name = "arhadthedev_github_readme"
 version = "1.0.0"
 authors = [
@@ -26,7 +25,6 @@ classifiers = [
   "Programming Language :: Python :: 3.13",
   "Topic :: Documentation",
 ]
-
 dependencies = [
   "aiohttp ~= 3.12",
   "gidgethub ~= 5.4",
