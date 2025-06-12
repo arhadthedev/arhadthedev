@@ -50,7 +50,7 @@ def _get_inputs() -> tuple[str, str, str]:
     return args.user, token, args.email, args.repo
 
 
-def _make_id(parsed_name):
+def _make_id(parsed_name: list[str]) -> str:
     return parsed_name[1].replace('-', '')
 
 
@@ -107,8 +107,10 @@ def _get_query(repositories: list[str]) -> tuple[dict[str, str], str]:
 
 _user_agent = 'arhadthedev/arhadthedev'
 
+type NestedDict[T] = dict[str, T | 'NestedDict[T]']
 
-async def _make_query(query, emails: list[str], user: str, token: str):
+async def _make_query(query: dict[str, str], emails: list[str], user: str,
+    token: str) -> tuple[str, list[str], NestedDict[str]]:
     query_names, query_string = query
     logger.debug('A query to be sent: %s', query_string)
     async with ClientSession() as session:
@@ -138,7 +140,7 @@ def _output_results(statistics, output) -> None:
     output.write(json.dumps(condenced))
 
 
-async def _cli():
+async def _cli() -> None:
     user, token, emails, repos = _get_inputs()
     contributions = await _make_query(_get_query(repos), emails, user, token)
     _output_results(contributions, stdout)
