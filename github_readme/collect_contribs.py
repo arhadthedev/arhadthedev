@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
-"""
-Get GitHub contribution statistics.
+"""Get GitHub contribution statistics.
 
 Temporary workaround
 --------------------
