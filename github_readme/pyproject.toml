@@ -35,5 +35,30 @@ dependencies = [
 requires = ["setuptools >= 61.0.0"]
 build-backend = "setuptools.build_meta"
 
+[tool.ruff]
+target-version = "py313"
+# PEP 8
+line-length = 79
+
+[tool.ruff.lint]
+select = ["ALL"]
+
+ignore = [
+  "Q000", # We use single quotes for now
+  "RUF001", # We use a text editor that shows NBSP as <0xa0>, not a plain space
+
+  # TODO: fix, remove, and tick the bullet points in gh-106
+  "D212",
+  "D213",
+  "ANN001",
+  "ANN202",
+  "G001",
+  "LOG015",
+  "RET503",
+  "UP009",
+  "UP030",
+  "UP032",
+]
+
 [tool.setuptools]
 py-modules = ["collect_contribs", "regen_readme"]
