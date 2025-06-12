@@ -21,6 +21,7 @@ jobs:
           cache-dependency-path: github_readme
           python-version: 3.13
       - name: Install dependencies
+        working-directory: github_readme
         run: python -m pip install -r requirements.txt
       - name: Gather contribution statistics
         # Call as a script to catch accidental resets of the POSIX execution bit
