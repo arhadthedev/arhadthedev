@@ -9,7 +9,7 @@ env:
   # $TERM is required for $FORCE_COLOR but absent on GitHub CI.
   # See <https://github.com/python/mypy/issues/13817> for details.
   #
-  # Discovered via <https://github.com/python/cpython/blob/e6c3039c/.github/workflows/mypy.yml#L35-L36>
+  # Discovered via <https://github.com/python/cpython/blob/e6c3039c/.github/workflows/mypy.yml#L35-L36>.
   TERM: xterm-256color
 
 jobs:
