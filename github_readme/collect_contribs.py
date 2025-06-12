@@ -15,14 +15,15 @@ import os
 import re
 from argparse import ArgumentParser
 from asyncio import run
-from logging import basicConfig, debug
+from logging import getLogger
 from sys import stdout
 
 from aiohttp import ClientSession
 from gidgethub.aiohttp import GitHubAPI
 
 LOGLEVEL = os.environ.get('LOGLEVEL', 'INFO').upper()
-basicConfig(level=LOGLEVEL)
+logger = getLogger(__name__)
+logger.setLevel(LOGLEVEL)
 
 
 def _get_inputs() -> tuple[str, str, str]:
@@ -109,7 +110,7 @@ _user_agent = 'arhadthedev/arhadthedev'
 
 async def _make_query(query, emails: list[str], user: str, token: str):
     query_names, query_string = query
-    debug('A query to be sent: %s', query_string)
+    logger.debug('A query to be sent: %s', query_string)
     async with ClientSession() as session:
         gh = GitHubAPI(session, _user_agent, oauth_token=token)
         gh_response = await gh.graphql(query_string, user=user, emails=emails)
