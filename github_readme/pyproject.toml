@@ -1,6 +1,7 @@
 [project]
 
 name = "arhadthedev_github_readme"
+version = "1.0.0"
 authors = [
   {name = "Oleg Iarygin", email = "oleg@arhadthedev.net"},
 ]
