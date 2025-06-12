@@ -17,7 +17,6 @@ from argparse import ArgumentParser
 from asyncio import run
 from logging import getLogger
 from sys import stdout
-from typing import Any
 
 from aiohttp import ClientSession
 from gidgethub.aiohttp import GitHubAPI
@@ -108,9 +107,10 @@ def _get_query(repositories: list[str]) -> tuple[dict[str, str], str]:
 
 _user_agent = 'arhadthedev/arhadthedev'
 
+type NestedStrDict = dict[str, str | 'NestedStrDict']
 
 async def _make_query(query: dict[str, str], emails: list[str], user: str,
-    token: str) -> tuple[str, list[str], Any]:
+    token: str) -> tuple[str, list[str], NestedStrDict]:
     query_names, query_string = query
     logger.debug('A query to be sent: %s', query_string)
     async with ClientSession() as session:
