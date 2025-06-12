@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 
 """Regenerate Open Source section of README.md using prepared statistics.
 
