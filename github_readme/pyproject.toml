@@ -48,8 +48,6 @@ ignore = [
   "RUF001", # We use a text editor that shows NBSP as <0xa0>, not a plain space
 
   # TODO: fix, remove, and tick the bullet points in gh-106
-  "D212",
-  "D213",
   "ANN001",
   "ANN202",
   "G001",
