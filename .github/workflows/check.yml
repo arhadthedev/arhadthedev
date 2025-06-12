@@ -8,14 +8,8 @@ jobs:
     name: Checks CI scripts with no execution
     runs-on: ubuntu-latest
     steps:
-      - name: Debug output of where is .
-        run: pwd
-      - name: Debug output of .
-        run: ls .
-      - name: Debug output of ./.github
-        run: ls .github
-      - name: Debug output of ./.github/problem-matchers
-        run: ls .github/problem-matchers
+      - name: Checkout source code
+        uses: actions/checkout@v4
       # From <https://github.com/rhysd/actionlint/blob/v1.7.7/docs/usage.md#problem-matchers>
       - name: Checkout Github Action YAML files
         run: |
