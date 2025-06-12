@@ -51,7 +51,6 @@ ignore = [
 
   # TODO: fix, remove, and tick the bullet points in gh-106
   "ANN001",
-  "ANN202",
 ]
 
 [tool.setuptools]
