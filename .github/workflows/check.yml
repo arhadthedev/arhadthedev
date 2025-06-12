@@ -4,8 +4,19 @@ on:
   pull_request:
 
 jobs:
-  check:
-    name: Checks with no code execution
+  check-actions:
+    name: Checks CI scripts with no execution
+    runs-on: ubuntu-latest
+    steps:
+      # From <https://github.com/rhysd/actionlint/blob/v1.7.7/docs/usage.md#problem-matchers>
+      - name: Checkout Github Action YAML files
+        run: |
+          echo "::add-matcher::.github/actionlint-matcher.json"
+          bash <(curl https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash)
+          ./actionlint -color
+        shell: bash
+  check-python:
+    name: Checks Python code with no execution
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
