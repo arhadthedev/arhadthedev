@@ -15,7 +15,7 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v4
       - name: Install the latest Python version
-        working-directory: github_readme
+        uses: actions/setup-python@v5
         with:
           cache: pip
           cache-dependency-path: github_readme
