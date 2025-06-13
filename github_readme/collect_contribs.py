@@ -79,6 +79,13 @@ subquery_template = """
     {slug}: repository(name: "{repo}", owner: "{org}") {{
       ...ContributionsFragment
     }}
+    {slug}Pulls: search(
+      query: "repo:{org}/{repo} is:pr is:open author:arhadthedev"
+      type: ISSUE
+      first: 1
+    ) {{
+      issueCount
+    }}
 """
 
 
