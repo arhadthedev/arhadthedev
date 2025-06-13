@@ -72,19 +72,15 @@ query_template = """
       pullRequests(headRefName: "arhadthedev*", states: OPEN) {{
         totalCount
       }}
+      issues(states: [OPEN], filterBy: {{createdBy: $user}}) {{
+        totalCount
+      }}
     }}
 """
 
 subquery_template = """
     {slug}: repository(name: "{repo}", owner: "{org}") {{
       ...ContributionsFragment
-    }}
-    {slug}Pulls: search(
-      query: "repo:{org}/{repo} is:pr is:open author:arhadthedev"
-      type: ISSUE
-      first: 1
-    ) {{
-      issueCount
     }}
 """
 
@@ -130,9 +126,10 @@ def _condense_report(
         if gh[field_id]['commits'] is None:
             gh[field_id]['commits'] = {'history': {'totalCount': 0}}
 
+        print(f"== {name}: {gh[field_id]}")
         condenced[name] = {
             'commit_count': gh[field_id]['commits']['history']['totalCount'],
-            'pr_count': gh[f'{field_id}Pulls']['issueCount'],
+            'pr_count': gh[field_id]['issues']['totalCount'],
             'issue_count': gh[field_id]['issues']['totalCount'],
         }
 
