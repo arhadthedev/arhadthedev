@@ -15,6 +15,7 @@ import os
 import re
 from argparse import ArgumentParser
 from asyncio import run
+from io import TextIOBase
 from logging import getLogger
 from sys import stdout
 
@@ -109,8 +110,12 @@ _user_agent = 'arhadthedev/arhadthedev'
 
 type NestedDict[T] = dict[str, T | 'NestedDict[T]']
 
-async def _make_query(query: dict[str, str], emails: list[str], user: str,
-    token: str) -> tuple[str, list[str], NestedDict[str]]:
+async def _make_query(
+    query: dict[str, str],
+    emails: list[str],
+    user: str,
+    token: str,
+) -> tuple[str, list[str], NestedDict[str]]:
     query_names, query_string = query
     logger.debug('A query to be sent: %s', query_string)
     async with ClientSession() as session:
@@ -119,7 +124,11 @@ async def _make_query(query: dict[str, str], emails: list[str], user: str,
         return user, query_names, gh_response
 
 
-def _condense_report(user: str, query_names, gh) -> dict[str, str]:
+def _condense_report(
+    user: str,
+    query_names: list[str],
+    gh: NestedDict[str],
+) -> dict[str, str]:
     condenced = {'author': user}
     for name, field_id in query_names.items():
         if gh[field_id]['commits'] is None:
@@ -134,7 +143,10 @@ def _condense_report(user: str, query_names, gh) -> dict[str, str]:
     return condenced
 
 
-def _output_results(statistics, output) -> None:
+def _output_results(
+    statistics: tuple[str, list[str], NestedDict[str]],
+    output: TextIOBase,
+) -> None:
     user, query_names, gh = statistics
     condenced = _condense_report(user, query_names, gh)
     output.write(json.dumps(condenced))
