@@ -55,7 +55,7 @@ def _make_id(parsed_name: list[str]) -> str:
     return parsed_name[1].replace('-', '')
 
 
-query_template_raw = """
+query_template = """
     query ($user: String!, $emails: [String!]) {{
       {subqueries}
     }}
@@ -76,7 +76,7 @@ query_template_raw = """
     }}
 """
 
-subquery_template_raw = """
+subquery_template = """
     {slug}: repository(name: "{repo}", owner: "{org}") {{
       ...ContributionsFragment
     }}
@@ -91,9 +91,6 @@ subquery_template_raw = """
 
 
 def _get_query(repositories: list[str]) -> tuple[dict[str, str], str]:
-    query_template = re.sub('\n| (?= )', '', query_template_raw)
-    subquery_template = re.sub('\n| (?= )', '', subquery_template_raw)
-
     parsed_names = {name: name.split('/', maxsplit=1) for name in repositories}
     name_to_id = {name: _make_id(parsed_names[name]) for name in repositories}
     subqueries = [
