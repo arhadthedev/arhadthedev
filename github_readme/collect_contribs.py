@@ -126,7 +126,7 @@ def _condense_report(
         if gh[field_id]['commits'] is None:
             gh[field_id]['commits'] = {'history': {'totalCount': 0}}
 
-        logger.warning(f"== {name}: {gh[field_id]}")
+        logger.warning("== %s: %s", name, gh[field_id])
         condenced[name] = {
             'commit_count': gh[field_id]['commits']['history']['totalCount'],
             'pr_count': gh[field_id]['issues']['totalCount'],
