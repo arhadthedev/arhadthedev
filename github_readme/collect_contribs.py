@@ -72,7 +72,7 @@ query_template = """
       pullRequests(headRefName: "arhadthedev*", states: OPEN) {{
         totalCount
       }}
-      issues(states: [OPEN], filterBy: {{createdBy: $user}}) {{
+      issues(states: [OPEN]) {{
         totalCount
       }}
     }}
