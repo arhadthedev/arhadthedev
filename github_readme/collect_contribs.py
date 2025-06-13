@@ -12,7 +12,6 @@ and joining everything like the filter is originally supported.
 
 import json
 import os
-import re
 from argparse import ArgumentParser
 from asyncio import run
 from io import TextIOBase
