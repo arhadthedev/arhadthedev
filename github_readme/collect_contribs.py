@@ -72,9 +72,6 @@ query_template = """
       pullRequests(headRefName: "arhadthedev*", states: OPEN) {{
         totalCount
       }}
-      issues(filterBy: {{createdBy: $user}}) {{
-        totalCount
-      }}
     }}
 """
 
@@ -129,7 +126,7 @@ def _condense_report(
         logger.warning("== %s: %s", name, gh[field_id])
         condenced[name] = {
             'commit_count': gh[field_id]['commits']['history']['totalCount'],
-            'pr_count': gh[field_id]['issues']['totalCount'],
+            'pr_count': gh[field_id]['pullRequests']['totalCount'],
             'issue_count': gh[field_id]['issues']['totalCount'],
         }
 
