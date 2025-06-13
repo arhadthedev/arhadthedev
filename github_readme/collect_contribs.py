@@ -125,12 +125,12 @@ def _condense_report(
     query_names: list[str],
     gh: NestedDict[str],
 ) -> dict[str, str]:
+    logger.warning("== %s", gh)
     condenced = {'author': user}
     for name, field_id in query_names.items():
         if gh[field_id]['commits'] is None:
             gh[field_id]['commits'] = {'history': {'totalCount': 0}}
 
-        logger.warning("== %s: %s", name, gh[field_id])
         condenced[name] = {
             'commit_count': gh[field_id]['commits']['history']['totalCount'],
             'pr_count': gh[field_id]['pullRequests']['totalCount'],
