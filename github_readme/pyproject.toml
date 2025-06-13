@@ -48,9 +48,6 @@ ignore = [
   "D213", # Conflicts with D212 modelled after PEP-257
   "Q000", # We use single quotes for now
   "RUF001", # We use a text editor that shows NBSP as <0xa0>, not a plain space
-
-  # TODO: fix, remove, and tick the bullet points in gh-106
-  "ANN001",
 ]
 
 [tool.setuptools]

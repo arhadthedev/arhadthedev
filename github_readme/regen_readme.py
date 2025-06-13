@@ -19,11 +19,14 @@ The statistics are supplied by a JSON file with a dictionary:
 import json
 import re
 from argparse import ArgumentParser
+from collections.abc import Callable
 from functools import partial
 from pathlib import Path
 
 
-def _make_contrib_highlight(templates) -> str | None:
+def _make_contrib_highlight(
+    templates: tuple[int, str, Callable[[int], str], str],
+) -> str | None:
     count, url, plural_template, message_template = templates
     if count() > 0:
         plural = plural_template(count())
@@ -31,7 +34,10 @@ def _make_contrib_highlight(templates) -> str | None:
     return None
 
 
-def _make_contrib_line(contribs, match: re.Pattern) -> str:
+type NestedDict[T] = dict[str, T | "NestedDict[T]"]
+
+
+def _make_contrib_line(contribs: NestedDict[str], match: re.Pattern) -> str:
     repo_name = match.group('name')
     repo_path = f'https://github.com/{repo_name}'
 
