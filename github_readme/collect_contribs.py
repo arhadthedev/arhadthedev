@@ -69,7 +69,7 @@ query_template = """
           }}
         }}
       }}
-      pullRequests(headRefName: "arhadthedev*", states: OPEN) {{
+      pullRequests(headRefName: "$user*", states: OPEN) {{
         totalCount
       }}
     }}
