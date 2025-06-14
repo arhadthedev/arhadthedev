@@ -69,9 +69,6 @@ query_template = """
           }}
         }}
       }}
-      pullRequests(headRefName: "arhadthedev*", states: OPEN) {{
-        totalCount
-      }}
     }}
 """
 
@@ -80,7 +77,7 @@ subquery_template = """
       ...ContributionsFragment
     }}
     {slug}Pulls: search(
-      query: "repo:{org}/{repo} is:pr is:open author:arhadthedev"
+      query: "repo:{org}/{repo} is:pr is:open author:$user"
       type: ISSUE
       first: 1
     ) {{
