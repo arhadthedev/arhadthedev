@@ -77,7 +77,7 @@ subquery_template = """
       ...ContributionsFragment
     }}
     {slug}Pulls: search(
-      query: "repo:{org}/{repo} is:pr is:open author:$user"
+      query: "repo:{org}/{repo} is:pr is:open author:arhadthedev"
       type: ISSUE
       first: 1
     ) {{
