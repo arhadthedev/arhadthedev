@@ -21,7 +21,7 @@ from sys import stdout
 from aiohttp import ClientSession
 from gidgethub.aiohttp import GitHubAPI
 
-LOGLEVEL = os.environ.get('LOGLEVEL', 'DEBUG').upper()
+LOGLEVEL = os.environ.get('LOGLEVEL', 'INFO').upper()
 logger = getLogger(__name__)
 logger.setLevel(LOGLEVEL)
 
@@ -110,7 +110,7 @@ async def _make_query(
     token: str,
 ) -> tuple[str, list[str], NestedDict[str]]:
     query_names, query_string = query
-    logger.debug('A query to be sent: %s', query_string)
+    logger.info('A query to be sent: %s', query_string)
     async with ClientSession() as session:
         gh = GitHubAPI(session, _user_agent, oauth_token=token)
         gh_response = await gh.graphql(query_string, user=user, emails=emails)
