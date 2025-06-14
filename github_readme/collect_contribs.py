@@ -71,8 +71,7 @@ query_template = """
       }}
       pullRequests(last: 3, states: [OPEN]) {{
         nodes {
-          author,
-          baseRefName,
+          baseRefName
           headRefName
         }
       }}
