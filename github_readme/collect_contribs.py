@@ -80,10 +80,6 @@ query_template = """
               }}
             }}
           }}
-          author
-          headRepositoryOwner
-          baseRefName
-          headRefName
         }}
       }}
     }}
