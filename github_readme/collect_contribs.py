@@ -69,7 +69,7 @@ query_template = """
           }}
         }}
       }}
-      pullRequests(states: [OPEN], first: 0) {{
+      pullRequests(states: [OPEN], first: 10) {{
         nodes {{
           commits {{
             nodes {{
