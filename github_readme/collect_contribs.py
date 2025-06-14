@@ -71,7 +71,7 @@ query_template = """
       }}
       pullRequests(states: [OPEN], first: 10) {{
         nodes {{
-          commits {{
+          commits(first: 1) {{
             nodes {{
               commit {{
                 history(author: {{emails: $emails}}) {{
