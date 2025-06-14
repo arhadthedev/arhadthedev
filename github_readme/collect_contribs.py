@@ -69,8 +69,10 @@ query_template = """
           }}
         }}
       }}
-      pullRequests(last: 3, states: [OPEN]) {{
+      pullRequests(states: [OPEN], author: $user) {{
         nodes {{
+          author
+          headRepositoryOwner
           baseRefName
           headRefName
         }}
