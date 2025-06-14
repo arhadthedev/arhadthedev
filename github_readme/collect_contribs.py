@@ -69,8 +69,17 @@ query_template = """
           }}
         }}
       }}
-      pullRequests(states: [OPEN], author: $user) {{
+      pullRequests(states: [OPEN]) {{
         nodes {{
+          commits {{
+            nodes {{
+              commit {{
+                history(author: {{emails: $emails}}) {{
+                  totalCount
+                }}
+              }}
+            }}
+          }}
           author
           headRepositoryOwner
           baseRefName
