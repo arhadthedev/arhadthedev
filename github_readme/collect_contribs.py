@@ -70,10 +70,10 @@ query_template = """
         }}
       }}
       pullRequests(last: 3, states: [OPEN]) {{
-        nodes {
+        nodes {{
           baseRefName
           headRefName
-        }
+        }}
       }}
     }}
 """
