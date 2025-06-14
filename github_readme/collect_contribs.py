@@ -21,7 +21,7 @@ from sys import stdout
 from aiohttp import ClientSession
 from gidgethub.aiohttp import GitHubAPI
 
-LOGLEVEL = os.environ.get('LOGLEVEL', 'INFO').upper()
+LOGLEVEL = os.environ.get('LOGLEVEL', 'DEBUG').upper()
 logger = getLogger(__name__)
 logger.setLevel(LOGLEVEL)
 
