@@ -69,8 +69,12 @@ query_template = """
           }}
         }}
       }}
-      pullRequests(states: [OPEN], headRefName: "$user/*") {{
-        totalCount
+      pullRequests(last: 3, states: [OPEN]) {{
+        nodes {
+          author,
+          baseRefName,
+          headRefName
+        }
       }}
     }}
 """
