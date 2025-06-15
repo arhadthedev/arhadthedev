@@ -115,6 +115,7 @@ async def _make_query(
         gh = GitHubAPI(session, _user_agent, oauth_token=token)
         logger.warning("user: %s", user)
         gh_response = await gh.graphql(query_string, user=user, emails=emails)
+        logger.warning("response: %s", gh_response)
         return user, query_names, gh_response
 
 
