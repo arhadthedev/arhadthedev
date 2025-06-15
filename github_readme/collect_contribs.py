@@ -69,9 +69,6 @@ query_template = """
           }}
         }}
       }}
-      pullRequests(headRefName: "arhadthedev*", states: OPEN) {{
-        totalCount
-      }}
     }}
 """
 
