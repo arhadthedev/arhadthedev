@@ -62,7 +62,7 @@ def _make_contrib_line(contribs: NestedDict[str], match: re.Pattern) -> str:
         ),
     ]
 
-    all_entries = map(_make_contrib_highlight, generators)
+    all_entries = (_make_contrib_highlight(entry) for entry in generators)
     contrib_statistics = ', '.join(filter(None, all_entries))
     return f'  - **{repo_name}**: {contrib_statistics}'
 
