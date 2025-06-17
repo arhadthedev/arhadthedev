@@ -20,17 +20,29 @@ import json
 import re
 from argparse import ArgumentParser
 from collections.abc import Callable
+from dataclasses import dataclass
 from functools import partial
 from pathlib import Path
 
 
-def _make_contrib_highlight(
-    templates: tuple[int, str, Callable[[int], str], str],
-) -> str | None:
-    count, url, plural_template, message_template = templates
-    if count() > 0:
-        plural = plural_template(count())
-        return message_template.format(count=count(), plural=plural, url=url)
+@dataclass
+class Contribution:
+    """Info on one contribution type into one repo."""
+
+    count: Callable[[], int]
+    url: str
+    plural_template: Callable[[int], str]
+    message_template: str
+
+
+def _make_contrib_highlight(group: Contribution) -> str | None:
+    if group.count() > 0:
+        plural = group.plural_template(group.count())
+        return group.message_template.format(
+            count=group.count(),
+            plural=plural,
+            url=group.url,
+        )
     return None
 
 
@@ -42,19 +54,19 @@ def _make_contrib_line(contribs: NestedDict[str], match: re.Pattern) -> str:
     repo_path = f'https://github.com/{repo_name}'
 
     generators = [
-        (
+        Contribution(
             lambda: contribs[repo_name].get('commit_count', 0),
             f"{repo_path}/commits?author={contribs['author']}",
             lambda count: 's' if count > 1 else '',
             '[{count} already merged commit{plural}]({url})',
         ),
-        (
+        Contribution(
             lambda: contribs[repo_name].get('pr_count', 0),
             f"{repo_path}/pulls/{contribs['author']}",
             lambda count: 's are' if count > 1 else ' is',
             '[{count} PR{plural} awaiting merging]({url})',
         ),
-        (
+        Contribution(
             lambda: contribs[repo_name].get('issue_count', 0),
             f"{repo_path}/issues?q=is%3Aissue+author%3A{contribs['author']}",
             lambda count: 's' if count > 1 else '',
