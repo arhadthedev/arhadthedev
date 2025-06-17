@@ -27,6 +27,8 @@ from pathlib import Path
 
 @dataclass
 class Contribution:
+    """Info on one contribution type into one repo."""
+
     count: Callable[[], int]
     url: str
     plural_template: Callable[[int], str]
