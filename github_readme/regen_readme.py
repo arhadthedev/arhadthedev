@@ -27,16 +27,16 @@ from pathlib import Path
 
 @dataclass
 class Contribution:
-    count: Callable[[], int]
+    total_count: Callable[[], int]
     url: str
     plural_template: Callable[[int], str]
     message_template: str
 
 
 def _make_contrib_highlight(group: Contribution) -> str | None:
-    if group.count() > 0:
-        plural = group.plural_template(group.count())
-        return group.message_template.format(count=group.count(), plural=plural, url=group.url)
+    if group.total_count() > 0:
+        plural = group.plural_template(group.total_count())
+        return group.message_template.format(count=group.total_count(), plural=plural, url=group.url)
     return None
 
 
