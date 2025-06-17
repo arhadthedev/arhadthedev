@@ -36,7 +36,11 @@ class Contribution:
 def _make_contrib_highlight(group: Contribution) -> str | None:
     if group.count() > 0:
         plural = group.plural_template(group.count())
-        return group.message_template.format(count=group.count(), plural=plural, url=group.url)
+        return group.message_template.format(
+            count=group.count(),
+            plural=plural,
+            url=group.url,
+        )
     return None
 
 
