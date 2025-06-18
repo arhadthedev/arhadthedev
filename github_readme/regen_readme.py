@@ -39,7 +39,7 @@ def _make_contrib_highlight(group: Contribution) -> str | None:
     if group.count() > 0:
         plural = group.plural_template(group.count())
         markup = f'[{group.message_template}]({group.url})'
-        return markup.format(count=group.count(), plural=plural, url=group.url)
+        return markup.format(count=group.count(), plural=plural)
     return None
 
 
