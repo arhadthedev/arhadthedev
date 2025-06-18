@@ -38,11 +38,8 @@ class Contribution:
 def _make_contrib_highlight(group: Contribution) -> str | None:
     if group.count() > 0:
         plural = group.plural_template(group.count())
-        return group.message_template.format(
-            count=group.count(),
-            plural=plural,
-            url=group.url,
-        )
+        markup = f'[{group.message_template}]({group.url})'
+        return markup.format(count=group.count(), plural=plural, url=group.url)
     return None
 
 
@@ -58,19 +55,19 @@ def _make_contrib_line(contribs: NestedDict[str], match: re.Pattern) -> str:
             lambda: contribs[repo_name].get('commit_count', 0),
             f"{repo_path}/commits?author={contribs['author']}",
             lambda count: 's' if count > 1 else '',
-            '[{count} already merged commit{plural}]({url})',
+            '{count} already merged commit{plural}',
         ),
         Contribution(
             lambda: contribs[repo_name].get('pr_count', 0),
             f"{repo_path}/pulls/{contribs['author']}",
             lambda count: 's are' if count > 1 else ' is',
-            '[{count} PR{plural} awaiting merging]({url})',
+            '{count} PR{plural} awaiting merging',
         ),
         Contribution(
             lambda: contribs[repo_name].get('issue_count', 0),
             f"{repo_path}/issues?q=is%3Aissue+author%3A{contribs['author']}",
             lambda count: 's' if count > 1 else '',
-            '[{count} reported issue{plural}]({url})',
+            '{count} reported issue{plural}',
         ),
     ]
 
