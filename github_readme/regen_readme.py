@@ -31,18 +31,17 @@ class Contribution:
 
     count: Callable[[], int]
     url: str
-    plural_template: Callable[[int], str]
     message_template: str
 
 
 def _make_contrib_highlight(group: Contribution) -> str | None:
     if group.count() > 0:
-        plural = group.plural_template(group.count())
-        return group.message_template.format(
-            count=group.count(),
-            plural=plural,
-            url=group.url,
+        plural = re.sub(
+            r'\((?:([^/]+)/)?([^)]+)\)', # covers both `(is/are)` and `(s)`
+            r'\1' if group.count() == 1 else r'\2',
+            group.message_template,
         )
+        return plural.format(count=group.count(), url=group.url)
     return None
 
 
@@ -57,20 +56,17 @@ def _make_contrib_line(contribs: NestedDict[str], match: re.Pattern) -> str:
         Contribution(
             lambda: contribs[repo_name].get('commit_count', 0),
             f"{repo_path}/commits?author={contribs['author']}",
-            lambda count: 's' if count > 1 else '',
-            '[{count} already merged commit{plural}]({url})',
+            '[{count} already merged commit(s)]({url})',
         ),
         Contribution(
             lambda: contribs[repo_name].get('pr_count', 0),
             f"{repo_path}/pulls/{contribs['author']}",
-            lambda count: 's are' if count > 1 else ' is',
-            '[{count} PR{plural} awaiting merging]({url})',
+            '[{count} PR( is/s are) awaiting merging]({url})',
         ),
         Contribution(
             lambda: contribs[repo_name].get('issue_count', 0),
             f"{repo_path}/issues?q=is%3Aissue+author%3A{contribs['author']}",
-            lambda count: 's' if count > 1 else '',
-            '[{count} reported issue{plural}]({url})',
+            '[{count} reported issue(s)]({url})',
         ),
     ]
 
