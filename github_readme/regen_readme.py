@@ -85,9 +85,8 @@ _contrib_regex = re.compile(
 )
 
 
-def _update_readme(source_file: Path) -> None:
-    readme_file = Path('README.md')
-    contribs = json.loads(source_file.read_text(encoding='utf8'))
+def _update_readme(config_file: Path, readme_file: Path) -> None:
+    contribs = json.loads(config_file.read_text(encoding='utf8'))
 
     line_updater = partial(_make_contrib_line, contribs)
     original_readme = readme_file.read_text(encoding='utf8')
@@ -107,5 +106,5 @@ def _get_cli_inputs() -> Path:
 
 
 if __name__ == '__main__':
-    source_file = _get_cli_inputs()
-    _update_readme(source_file)
+    config_file = _get_cli_inputs()
+    _update_readme(config_file, Path('README.md'))
