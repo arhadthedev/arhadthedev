@@ -41,7 +41,8 @@ def _make_contrib_highlight(group: Contribution) -> str | None:
             r'\1' if group.count() == 1 else r'\2',
             group.message_template,
         )
-        return plural.format(count=group.count(), url=group.url)
+        markup = f'[{group.message_template}]({group.url})'
+        return plural.format(count=group.count())
     return None
 
 
@@ -56,17 +57,17 @@ def _make_contrib_line(contribs: NestedDict[str], match: re.Pattern) -> str:
         Contribution(
             lambda: contribs[repo_name].get('commit_count', 0),
             f"{repo_path}/commits?author={contribs['author']}",
-            '[{count} already merged commit(s)]({url})',
+            '{count} already merged commit(s)',
         ),
         Contribution(
             lambda: contribs[repo_name].get('pr_count', 0),
             f"{repo_path}/pulls/{contribs['author']}",
-            '[{count} PR( is/s are) awaiting merging]({url})',
+            '{count} PR( is/s are) awaiting merging',
         ),
         Contribution(
             lambda: contribs[repo_name].get('issue_count', 0),
             f"{repo_path}/issues?q=is%3Aissue+author%3A{contribs['author']}",
-            '[{count} reported issue(s)]({url})',
+            '{count} reported issue(s)',
         ),
     ]
 
