@@ -50,10 +50,6 @@ def _get_inputs() -> tuple[str, str, str]:
     return args.user, token, args.email, args.repo
 
 
-def _make_id(parsed_name: list[str]) -> str:
-    return parsed_name[1].replace('-', '')
-
-
 query_template = """
     query ($user: String!, $emails: [String!]) {{
       {subqueries}
@@ -87,16 +83,16 @@ subquery_template = """
 
 
 def _get_query(repositories: list[str]) -> tuple[dict[str, str], str]:
-    parsed_names = {name: name.split('/', maxsplit=1) for name in repositories}
-    name_to_id = {name: _make_id(parsed_names[name]) for name in repositories}
+    names = {name: name.split('/', maxsplit=1) for name in repositories}
+    fields = {name: names[name][1].replace('-', '') for name in repositories}
     subqueries = [
         subquery_template.format(
-            org=parsed_names[name][0],
-            repo=parsed_names[name][1],
-            slug=name_to_id[name],
+            org=names[name][0],
+            repo=names[name][1],
+            slug=fields[name],
         ) for name in repositories
     ]
-    return name_to_id, query_template.format(subqueries=''.join(subqueries))
+    return query_template.format(subqueries=''.join(subqueries)), fields
 
 
 _user_agent = 'arhadthedev/arhadthedev'
@@ -104,17 +100,17 @@ _user_agent = 'arhadthedev/arhadthedev'
 type NestedDict[T] = dict[str, T | 'NestedDict[T]']
 
 async def _make_query(
-    query: dict[str, str],
+    query: tuple[str, dict[str, str]],
     emails: list[str],
     user: str,
     token: str,
 ) -> tuple[str, list[str], NestedDict[str]]:
-    query_names, query_string = query
+    query_string, query_fields = query
     logger.debug('A query to be sent: %s', query_string)
     async with ClientSession() as session:
         gh = GitHubAPI(session, _user_agent, oauth_token=token)
         gh_response = await gh.graphql(query_string, user=user, emails=emails)
-        return user, query_names, gh_response
+        return user, query_fields, gh_response
 
 
 def _condense_report(
