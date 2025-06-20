@@ -100,7 +100,7 @@ _user_agent = 'arhadthedev/arhadthedev'
 type NestedDict[T] = dict[str, T | 'NestedDict[T]']
 
 async def _make_query(
-    query: Tuple[str, dict[str, str]],
+    query: tuple[str, dict[str, str]],
     emails: list[str],
     user: str,
     token: str,
