@@ -1,2 +1,7 @@
 # Generated files that should not pass to git-auto-commit-action
+build
+*egg-info/
 stats.json
+
+# Tooling cache
+.*_cache/

@@ -23,6 +23,7 @@ from collections.abc import Callable
 from dataclasses import dataclass
 from functools import partial
 from pathlib import Path
+from typing import Any
 
 
 @dataclass
@@ -46,10 +47,9 @@ def _make_contrib_highlight(group: Contribution) -> str | None:
     return None
 
 
-type NestedDict[T] = dict[str, T | "NestedDict[T]"]
-
-
-def _make_contrib_line(contribs: NestedDict[str], match: re.Pattern) -> str:
+# <https://github.com/python/typeshed/blob/ecd5141c/stdlib/json/__init__.pyi#L50-L60>
+# declares `json.load` returning Any so we declate `contribs` as Any too.
+def _make_contrib_line(contribs: Any, match: re.Match) -> str:
     repo_name = match.group('name')
     repo_path = f'https://github.com/{repo_name}'
 
