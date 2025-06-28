@@ -33,6 +33,12 @@ jobs:
           cache-dependency-path: github_readme
           python-version: 3.13
       - name: Install tools
-        run: python -m pip install ruff
+        run: python -m pip install ruff mypy
+      - name: Install dependencies so PyPI can get signatures
+        run: python -m pip install ./github_readme
+      - name: Remove the unnecessary build directory; linters get confused
+        run: rm -r github_readme/build
       - name: Test for code style
         run: python -mruff check github_readme
+      - name: Check type annotations
+        run: python -mmypy github_readme

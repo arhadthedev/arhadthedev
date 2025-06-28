@@ -14,9 +14,11 @@ import json
 import os
 from argparse import ArgumentParser
 from asyncio import run
+from collections.abc import Mapping, MutableMapping
 from io import TextIOBase
 from logging import getLogger
 from sys import stdout
+from typing import Any
 
 from aiohttp import ClientSession
 from gidgethub.aiohttp import GitHubAPI
@@ -26,7 +28,7 @@ logger = getLogger(__name__)
 logger.setLevel(LOGLEVEL)
 
 
-def _get_inputs() -> tuple[str, str, str]:
+def _get_inputs() -> tuple[str, str, list[str], list[str]]:
     token = os.environ['GITHUB_TOKEN']
 
     parser = ArgumentParser(
@@ -47,7 +49,9 @@ def _get_inputs() -> tuple[str, str, str]:
         help='A repo for scanning',
     )
     args = parser.parse_args()
-    return args.user, token, args.email, args.repo
+    emails = args.email if isinstance(args.email, list) else [args.email]
+    repos = args.repo if isinstance(args.repo, list) else [args.repo]
+    return str(args.user), str(token), emails, repos
 
 
 query_template = """
@@ -82,7 +86,7 @@ subquery_template = """
 """
 
 
-def _get_query(repositories: list[str]) -> tuple[dict[str, str], str]:
+def _get_query(repositories: list[str]) -> tuple[str, dict[str, str]]:
     names = {name: name.split('/', maxsplit=1) for name in repositories}
     fields = {name: names[name][1].replace('-', '') for name in repositories}
     subqueries = [
@@ -97,28 +101,29 @@ def _get_query(repositories: list[str]) -> tuple[dict[str, str], str]:
 
 _user_agent = 'arhadthedev/arhadthedev'
 
-type NestedDict[T] = dict[str, T | 'NestedDict[T]']
-
 async def _make_query(
     query: tuple[str, dict[str, str]],
     emails: list[str],
     user: str,
     token: str,
-) -> tuple[str, list[str], NestedDict[str]]:
+) -> tuple[str, dict[str, str], Any]:
     query_string, query_fields = query
     logger.debug('A query to be sent: %s', query_string)
     async with ClientSession() as session:
         gh = GitHubAPI(session, _user_agent, oauth_token=token)
+        # <https://github.com/gidgethub/gidgethub/blob/v5.4.0/gidgethub/abc.py#L296-L302>
+        # states that `GitHubAPI.graphql` returns not a dictionary but `Any`;
+        # check any code change for non-dictionary behaviour of `gh_response`.
         gh_response = await gh.graphql(query_string, user=user, emails=emails)
         return user, query_fields, gh_response
 
 
 def _condense_report(
     user: str,
-    query_names: list[str],
-    gh: NestedDict[str],
-) -> dict[str, str]:
-    condenced = {'author': user}
+    query_names: dict[str, str],
+    gh: Any,
+) -> Mapping[str, str | Mapping[str, str]]:
+    condenced: MutableMapping[str, str | Mapping[str, str]] = {'author': user}
     for name, field_id in query_names.items():
         if gh[field_id]['commits'] is None:
             gh[field_id]['commits'] = {'history': {'totalCount': 0}}
@@ -133,7 +138,7 @@ def _condense_report(
 
 
 def _output_results(
-    statistics: tuple[str, list[str], NestedDict[str]],
+    statistics: tuple[str, dict[str, str], Any],
     output: TextIOBase,
 ) -> None:
     user, query_names, gh = statistics
@@ -142,6 +147,8 @@ def _output_results(
 
 
 async def _cli() -> None:
+    if not isinstance(stdout, TextIOBase):
+        return
     user, token, emails, repos = _get_inputs()
     contributions = await _make_query(_get_query(repos), emails, user, token)
     _output_results(contributions, stdout)

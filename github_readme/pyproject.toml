@@ -44,10 +44,21 @@ line-length = 79
 select = ["ALL"]
 
 ignore = [
-  "D203", # Conflicts with D211 modelled after PEP-257
-  "D213", # Conflicts with D212 modelled after PEP-257
-  "Q000", # We use single quotes for now
-  "RUF001", # We use a text editor that shows NBSP as <0xa0>, not a plain space
+  # Gidgethub annotates its query results as `Any`:
+  # <https://github.com/python/typeshed/blob/ecd5141c/stdlib/json/__init__.pyi#L50-L60>
+  "ANN401",
+
+  # Conflicts with D211 modelled after PEP-257
+  "D203",
+
+  # Conflicts with D212 modelled after PEP-257
+  "D213",
+
+  # We use single quotes as in the Python documentation
+  "Q000",
+
+  # We use a text editor that shows NBSP as <0xa0>, not a plain space
+  "RUF001",
 ]
 
 [tool.setuptools]
