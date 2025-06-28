@@ -113,7 +113,7 @@ async def _make_query(
         gh = GitHubAPI(session, _user_agent, oauth_token=token)
         # <https://github.com/gidgethub/gidgethub/blob/v5.4.0/gidgethub/abc.py#L296-L302>
         # states that `GitHubAPI.graphql` returns not a dictionary but `Any`;
-        # check any code change for non-dictionary behviour of `gh_response`.
+        # check any code change for non-dictionary behaviour of `gh_response`.
         gh_response = await gh.graphql(query_string, user=user, emails=emails)
         return user, query_fields, gh_response
 
