@@ -32,4 +32,4 @@ def _get_cli_inputs() -> None:
 if __name__ == '__main__':
     _get_cli_inputs()
     names = _extract_repository_names(Path('README.md'))
-    print(*names, sep='\n') # noqa: T201 # This is a normal console output
+    print(*names, sep='\n', end='') # noqa: T201 # This is normal console output
