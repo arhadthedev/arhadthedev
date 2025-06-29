@@ -150,6 +150,7 @@ async def _cli() -> None:
     if not isinstance(stdout, TextIOBase):
         return
     user, token, emails, repos = _get_inputs()
+    print("=== repos:", repos)
     contributions = await _make_query(_get_query(repos), emails, user, token)
     _output_results(contributions, stdout)
 
