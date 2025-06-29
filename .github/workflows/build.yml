@@ -35,12 +35,12 @@ jobs:
       - name: Gather contribution statistics
         # Call as scripts to catch accidental resets of the POSIX execution bit
         run: >
-          ./github_readme/collect_repositories.py \
-          | sed -i -e 's/^/-r/' \
-          | xargs ./github_readme/collect_contribs.py \
-            -eoleg@arhadthedev.net \
-            -edralife@yandex.ru \
-            arhadthedev \
+          ./github_readme/collect_repositories.py
+          | sed -i -e 's/^/-r/'
+          | xargs ./github_readme/collect_contribs.py
+            -eoleg@arhadthedev.net
+            -edralife@yandex.ru
+            arhadthedev
             > stats.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
