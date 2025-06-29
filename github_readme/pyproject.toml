@@ -62,4 +62,4 @@ ignore = [
 ]
 
 [tool.setuptools]
-py-modules = ["collect_contribs", "regen_readme"]
+py-modules = ["collect_contribs", "collect_repositories", "regen_readme"]
