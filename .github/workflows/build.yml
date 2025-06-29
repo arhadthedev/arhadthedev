@@ -32,16 +32,11 @@ jobs:
         working-directory: github_readme
         run: python -m pip install .
       - name: Gather contribution statistics
-        # Call as a script to catch accidental resets of the POSIX execution bit
+        # Call as scripts to catch accidental resets of the POSIX execution bit
         run: >
-          ./github_readme/collect_contribs.py \
-            -rpython/cpython \
-            -rpython/core-workflow \
-            -rpython/bedevere \
-            -rpython/devguide \
-            -rpython/pyperformance \
-            -rsphinx-contrib/sphinx-lint \
-            -rtc39/ecma262 \
+          ./github_readme/collect_repositories.py \
+          | sed -e 's/^/-r/' \
+          | xargs ./github_readme/collect_contribs.py \
             -eoleg@arhadthedev.net \
             -edralife@yandex.ru \
             arhadthedev \
