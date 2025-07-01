@@ -39,8 +39,7 @@ jobs:
           | xargs ./github_readme/collect_contribs.py
             -eoleg@arhadthedev.net
             -edralife@yandex.ru
-            arhadthedev
-            > stats.json
+            arhadthedev > stats.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Upload raw statistics retrieved from GitHub
